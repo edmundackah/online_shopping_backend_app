@@ -1,9 +1,14 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:onlineshoppingbackendapp/startup_logic/StartUp.dart';
+import 'package:onlineshoppingbackendapp/CardItemModel.dart';
+import 'package:onlineshoppingbackendapp/screens/homepage.dart';
 import 'dart:async';
 
 import 'package:onlineshoppingbackendapp/screens/partials/bezierContainer.dart';
+import 'package:onlineshoppingbackendapp/startup_logic/StartUp.dart';
+import 'package:onlineshoppingbackendapp/logic/firebase_manager.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
   runApp(MyApp());
@@ -20,45 +25,50 @@ class MyApp extends StatelessWidget {
           primaryColor: Colors.white,
           accentColor: Colors.cyan[600]
       ),
-      home: MyHomePage(title: 'Control Center'),
+      home: LoginPage(title: 'Control Centre'),
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+class LoginPage extends StatefulWidget {
+  LoginPage({Key key, this.title}) : super(key: key);
 
   final String title;
 
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  _LoginPageState createState() => _LoginPageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
 
   final emailController = TextEditingController();
   final passwordController = TextEditingController();
 
-  bool isLoggedIn;
+  var appColours = [Color.fromRGBO(231, 129, 109, 1.0),Color.fromRGBO(99, 138, 223, 1.0),Color.fromRGBO(111, 194, 173, 1.0)];
+  var cardIndex = 0;
+  ScrollController scrollController;
+  var currentColor = Color.fromRGBO(231, 129, 109, 1.0);
+
+  var cardsList = [CardItemModel("Personal", Icons.account_circle, 9, 0.83),CardItemModel("Work", Icons.work, 12, 0.24),CardItemModel("Home", Icons.home, 7, 0.32)];
+
+  AnimationController animationController;
+  ColorTween colorTween;
+  CurvedAnimation curvedAnimation;
 
   @override
   void initState() {
-    StartUp().checkLoginSession().then((value) => isLoggedIn = value);
     super.initState();
+    scrollController = new ScrollController();
   }
 
   @override
   Widget build(BuildContext context) {
     //check if the user has saved login credentials
-    return isLoggedIn == false ? _loginPage() : _homePage();
+    return _loginPage();
   }
 
   Widget _loginPage() {
     return Scaffold(
-      appBar: AppBar(
-        centerTitle: true,
-        title: Text(widget.title),
-      ),
         body: Container(
             child: Container(
               height: MediaQuery.of(context).size.height,
@@ -111,11 +121,6 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-  Widget _homePage() {
-    //TODO: Homepage
-    return Container();
-  }
-
   Widget _entryField(String title, TextEditingController controller, {bool isPassword = false}) {
     return Container(
       margin: EdgeInsets.symmetric(vertical: 10),
@@ -140,27 +145,48 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Widget _submitButton() {
-    return Container(
-      width: MediaQuery.of(context).size.width,
-      padding: EdgeInsets.symmetric(vertical: 15),
-      alignment: Alignment.center,
-      decoration: BoxDecoration(
-          borderRadius: BorderRadius.all(Radius.circular(5)),
-          boxShadow: <BoxShadow>[
-            BoxShadow(
-                color: Colors.grey.shade200,
-                offset: Offset(2, 4),
-                blurRadius: 5,
-                spreadRadius: 2)
-          ],
-          gradient: LinearGradient(
-              begin: Alignment.centerLeft,
-              end: Alignment.centerRight,
-              colors: [Color(0xfffbb448), Color(0xfff7892b)])),
-      child: Text(
-        'Login',
-        style: TextStyle(fontSize: 20, color: Colors.white),
+    return InkWell(
+      child: Container(
+        width: MediaQuery.of(context).size.width,
+        padding: EdgeInsets.symmetric(vertical: 15),
+        alignment: Alignment.center,
+        decoration: BoxDecoration(
+            borderRadius: BorderRadius.all(Radius.circular(5)),
+            boxShadow: <BoxShadow>[
+              BoxShadow(
+                  color: Colors.grey.shade200,
+                  offset: Offset(2, 4),
+                  blurRadius: 5,
+                  spreadRadius: 2)
+            ],
+            gradient: LinearGradient(
+                begin: Alignment.centerLeft,
+                end: Alignment.centerRight,
+                colors: [Color(0xfffbb448), Color(0xfff7892b)])),
+        child: Text(
+          'Login',
+          style: TextStyle(fontSize: 20, color: Colors.white),
+        ),
       ),
+      splashColor: Colors.white,
+      onTap: () async {
+        String _userRef = await new FirebaseManager()
+            .login(emailController.text, passwordController.text);
+
+        if (_userRef != null) {
+          final SharedPreferences prefs = await SharedPreferences.getInstance();
+          prefs.setString("userInfo", _userRef);
+
+          Navigator.push(context,
+              MaterialPageRoute(
+                  builder: (context) =>
+                      HomePage(
+                          email: emailController.text,
+                          password: passwordController.text)
+              )
+          );
+        }
+      },
     );
   }
 

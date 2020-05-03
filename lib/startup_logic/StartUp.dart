@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:onlineshoppingbackendapp/logic/firebase_manager.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class StartUp {
@@ -12,14 +13,27 @@ class StartUp {
   Returns True if a login session exists, false if there is none
    */
 
-  Future<SharedPreferences> _prefs = SharedPreferences.getInstance();
-
   Future<bool> checkLoginSession() async {
     final SharedPreferences prefs = await SharedPreferences.getInstance();
 
-    if (prefs.getString("userInfo") != null) {
+    if (prefs.getString("userEmail") != null) {
       return true;
     }
     return false;
   }
+
+  Future<Map> getCredentials() async {
+    final SharedPreferences prefs = await SharedPreferences.getInstance();
+
+    return {
+      "email": prefs.getString("userEmail"),
+      "password": prefs.getString("userPassword"),
+    };
+  }
+
+  Future<String> getDocRef() async {
+    final SharedPreferences prefs = await SharedPreferences.getInstance();
+    return prefs.getString("userInfo");
+  }
+
 }
