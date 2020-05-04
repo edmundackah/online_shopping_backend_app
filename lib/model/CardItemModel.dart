@@ -1,5 +1,14 @@
 import 'package:flutter/material.dart';
 
+//TODO: Add card for online sentiment
+enum CardType {
+  ToDo,
+  Requests,
+  Orders,
+  Users,
+
+}
+
 class CardItemModel {
 
   String cardTitle;

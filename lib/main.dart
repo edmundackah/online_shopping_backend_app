@@ -1,12 +1,8 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:onlineshoppingbackendapp/CardItemModel.dart';
+import 'package:onlineshoppingbackendapp/model/CardItemModel.dart';
 import 'package:onlineshoppingbackendapp/screens/homepage.dart';
-import 'dart:async';
 
 import 'package:onlineshoppingbackendapp/screens/partials/bezierContainer.dart';
-import 'package:onlineshoppingbackendapp/startup_logic/StartUp.dart';
 import 'package:onlineshoppingbackendapp/logic/firebase_manager.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -20,6 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Backend App',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(// Define the default brightness and colors.
           //brightness: Brightness.light,
           primaryColor: Colors.white,

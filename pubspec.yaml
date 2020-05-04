@@ -20,7 +20,7 @@ dependencies:
   shared_preferences: ^0.5.7
   google_fonts: ^0.3.5
   cloud_firestore: ^0.13.5
-  flutter_login: ^1.0.14
+  fl_chart: ^0.9.4
   flutter:
     sdk: flutter
 
