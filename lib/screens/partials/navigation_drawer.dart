@@ -1,11 +1,13 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:expandable/expandable.dart';
+import 'package:onlineshoppingbackendapp/logic/firebase_manager.dart';
+import 'package:onlineshoppingbackendapp/screens/homepage.dart';
+import 'package:onlineshoppingbackendapp/screens/orders.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class NavDrawer extends StatefulWidget {
-  NavDrawer({Key key, this.password, this.email, this.currentPage}) : super(key: key);
+  NavDrawer({Key key, this.currentPage}) : super(key: key);
 
-  final String password, email;
   final int currentPage;
 
   @override
@@ -38,23 +40,31 @@ class _NavDrawerState extends State<NavDrawer> {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Drawer(
-      child: StreamBuilder(
-          stream: Firestore.instance
-              .collection("users")
-              .where("email", isEqualTo: widget.email)
-              .where("login.password", isEqualTo: widget.password)
-              .limit(1)
-              .snapshots(),
-          builder: (context, snapshot) {
-            if (!snapshot.hasData) return CircularProgressIndicator();
-            return Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
-                _userInfoSegment(snapshot),
-                _screensListView(snapshot)
-              ],
-            );
-          }),
+      child: FutureBuilder(
+        future: FirebaseManager().getLoginCred(),
+        builder: (context, loginSnapshot) {
+          if (loginSnapshot.connectionState != ConnectionState.done) {
+            return Container();
+          }
+          return StreamBuilder(
+              stream: Firestore.instance
+                  .collection("users")
+                  .where("email", isEqualTo: loginSnapshot.data["email"])
+                  .where("login.password", isEqualTo: loginSnapshot.data["password"])
+                  .limit(1)
+                  .snapshots(),
+              builder: (context, snapshot) {
+                if (!snapshot.hasData) return CircularProgressIndicator();
+                return Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    _userInfoSegment(snapshot),
+                    _screensListView(snapshot, loginSnapshot)
+                  ],
+                );
+              });
+        },
+      ),
     );
   }
 
@@ -127,7 +137,7 @@ class _NavDrawerState extends State<NavDrawer> {
     );
   }
 
-  Widget _screensListView(AsyncSnapshot snapshot) {
+  Widget _screensListView(AsyncSnapshot snapshot, AsyncSnapshot loginSnapshot) {
     List<IconData> _icons = [Icons.home, Icons.message, Icons.shopping_basket,
       Icons.people, Icons.score,Icons.record_voice_over, Icons.settings];
 
@@ -142,7 +152,25 @@ class _NavDrawerState extends State<NavDrawer> {
           children: <Widget>[
             FlatButton(
               color: _bgColourPicker(index),
-              onPressed: (){},
+              onPressed: (){
+                switch (index) {
+                  case 0:
+                    Navigator.push(context,
+                        MaterialPageRoute(
+                            builder: (context) => HomePage(
+                              email: loginSnapshot.data["email"],
+                              password: loginSnapshot.data["password"],
+                            )
+                        ));
+                    break;
+                  case 2:
+                    Navigator.push(context,
+                        MaterialPageRoute(
+                            builder: (context) => OrdersScreen(currentPage: index)
+                        ));
+                    break;
+                }
+              },
               child: Padding(
                 padding: const EdgeInsets.only(top: 3.0, bottom: 3.0),
                 child: Row(

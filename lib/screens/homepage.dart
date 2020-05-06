@@ -4,6 +4,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:onlineshoppingbackendapp/model/CardItemModel.dart';
+import 'package:onlineshoppingbackendapp/screens/partials/appbar.dart';
 import 'package:onlineshoppingbackendapp/screens/partials/navigation_drawer.dart';
 import 'package:onlineshoppingbackendapp/screens/partials/requests_chart.dart';
 import 'package:onlineshoppingbackendapp/screens/partials/sales_chart.dart';
@@ -51,18 +52,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: currentColor,
-      appBar: new AppBar(
-        title: new Text("Control Center", style: TextStyle(fontSize: 19.0),),
-        backgroundColor: currentColor,
-        centerTitle: true,
-        actions: <Widget>[
-          Padding(
-            padding: const EdgeInsets.only(right: 16.0),
-            child: Icon(Icons.search),
-          ),
-        ],
-        elevation: 0.0,
-      ),
+      appBar: MyAppBar(bgColour: currentColor, title: "Control Center"),
       body: StreamBuilder(
           stream: Firestore.instance.collection("users")
               .where("email", isEqualTo: widget.email)
@@ -70,11 +60,11 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
               .limit(1)
               .snapshots(),
           builder: (context, snapshot) {
-            if (!snapshot.hasData) return const CircularProgressIndicator();
+            if (!snapshot.hasData) return Center(child: CircularProgressIndicator());
             return _homepageBody(snapshot.data.documents[0]);
           }
       ),
-      drawer: NavDrawer(email: widget.email, password: widget.password, currentPage: 0,),
+      drawer: NavDrawer(currentPage: 0,),
     );
   }
 

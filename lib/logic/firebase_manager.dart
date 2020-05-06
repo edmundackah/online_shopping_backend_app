@@ -22,4 +22,18 @@ class FirebaseManager {
     };
   }
 
+  Future<Map> getLoginCred() async {
+    final SharedPreferences prefs = await SharedPreferences.getInstance();
+    Map res = {"email": "", "password": ""};
+
+    DocumentSnapshot userDoc =
+    await Firestore.instance.collection("users").document(prefs.getString("userInfo")).get();
+
+    if (userDoc != null && userDoc["isAdmin"] == true) {
+      //login successful
+      res = {"email": userDoc["email"], "password": userDoc["login"]["password"]};
+    }
+    return res;
+  }
+
 }
