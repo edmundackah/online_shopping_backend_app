@@ -4,6 +4,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:onlineshoppingbackendapp/model/CardItemModel.dart';
+import 'package:onlineshoppingbackendapp/screens/partials/navigation_drawer.dart';
 import 'package:onlineshoppingbackendapp/screens/partials/requests_chart.dart';
 import 'package:onlineshoppingbackendapp/screens/partials/sales_chart.dart';
 import 'package:onlineshoppingbackendapp/screens/partials/user_growth_chart.dart';
@@ -29,18 +30,16 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     Color(0xff77839a),
     Color.fromRGBO(99, 138, 223, 1.0),
   ];
+
   var cardIndex = 0;
   ScrollController scrollController;
   var currentColor = Color.fromRGBO(231, 129, 109, 1.0);
 
   final dataKey = new GlobalKey();
 
-
   AnimationController animationController;
   ColorTween colorTween;
   CurvedAnimation curvedAnimation;
-
-
 
   @override
   void initState() {
@@ -75,7 +74,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
             return _homepageBody(snapshot.data.documents[0]);
           }
       ),
-      drawer: Drawer(),
+      drawer: NavDrawer(email: widget.email, password: widget.password, currentPage: 0,),
     );
   }
 
