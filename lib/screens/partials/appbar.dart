@@ -28,7 +28,7 @@ class _MyAppBarState extends State<MyAppBar> {
           child: Icon(Icons.search),
         ),
       ],
-      elevation: 5.0,
+      elevation: 6.0,
     );
   }
 
