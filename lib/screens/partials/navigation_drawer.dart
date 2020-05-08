@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:onlineshoppingbackendapp/logic/firebase_manager.dart';
 import 'package:onlineshoppingbackendapp/screens/homepage.dart';
 import 'package:onlineshoppingbackendapp/screens/orders.dart';
+import 'package:onlineshoppingbackendapp/screens/users.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class NavDrawer extends StatefulWidget {
@@ -167,6 +168,12 @@ class _NavDrawerState extends State<NavDrawer> {
                     Navigator.push(context,
                         MaterialPageRoute(
                             builder: (context) => OrdersScreen(currentPage: index)
+                        ));
+                    break;
+                  case 3:
+                    Navigator.push(context,
+                        MaterialPageRoute(
+                            builder: (context) => UsersScreen(position: index)
                         ));
                     break;
                 }

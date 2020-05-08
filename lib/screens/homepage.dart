@@ -195,9 +195,6 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
       case 2 :
         return UserGrowthChart(position: position);
         break;
-      case 3:
-        return UsersScreen(position: position);
-        break;
       default:
         return _statCard( position);
         break;
