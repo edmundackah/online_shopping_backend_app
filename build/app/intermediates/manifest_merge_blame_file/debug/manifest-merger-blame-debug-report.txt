@@ -31,7 +31,7 @@
 26        android:name="io.flutter.app.FlutterApplication"
 26-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:9:9-57
 27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-27-->[androidx.core:core:1.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\96c4025afaac6452f26d95fca15db8ca\core-1.0.0\AndroidManifest.xml:22:18-86
+27-->[androidx.core:core:1.1.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\fdd1d924d9d4aeba2785fceb0b790aec\core-1.1.0\AndroidManifest.xml:24:18-86
 28        android:debuggable="true"
 29        android:icon="@mipmap/ic_launcher"
 29-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:11:9-43

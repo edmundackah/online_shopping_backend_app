@@ -4,11 +4,13 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:onlineshoppingbackendapp/model/CardItemModel.dart';
+import 'package:onlineshoppingbackendapp/screens/orders.dart';
 import 'package:onlineshoppingbackendapp/screens/partials/appbar.dart';
 import 'package:onlineshoppingbackendapp/screens/partials/navigation_drawer.dart';
 import 'package:onlineshoppingbackendapp/screens/partials/requests_chart.dart';
 import 'package:onlineshoppingbackendapp/screens/partials/sales_chart.dart';
 import 'package:onlineshoppingbackendapp/screens/partials/user_growth_chart.dart';
+import 'package:onlineshoppingbackendapp/screens/users.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({Key key, this.email, this.password}) : super(key: key);
@@ -180,10 +182,21 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
         return RequestsChart(position: position, appColours: appColours);
         break;
       case 1:
-        return SalesChart(position: position);
+        return InkWell(
+            child: SalesChart(position: position),
+          onDoubleTap: (){
+            Navigator.push(context,
+                MaterialPageRoute(
+                    builder: (context) => OrdersScreen(currentPage: position)
+                ));
+          },
+        );
         break;
       case 2 :
         return UserGrowthChart(position: position);
+        break;
+      case 3:
+        return UsersScreen(position: position);
         break;
       default:
         return _statCard( position);

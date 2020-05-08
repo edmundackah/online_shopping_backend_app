@@ -1,10 +1,7 @@
 import 'dart:math';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
-
-
 
 class SalesChart extends StatefulWidget {
   SalesChart({Key key, this.position}) : super(key: key);

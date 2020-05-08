@@ -4,23 +4,6 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-ca_values-ca.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-ca\\values-ca.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2842",
-                        "endColumns": "100",
-                        "endOffsets": "2938"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\3b9678029632a8bd70da4e4034bdbe61\\jetified-play-services-basement-17.0.0\\res\\values-ca\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -35,6 +18,23 @@
                         "startOffsets": "1264",
                         "endColumns": "193",
                         "endOffsets": "1453"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-ca\\values-ca.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2842",
+                        "endColumns": "100",
+                        "endOffsets": "2938"
                     }
                 },
                 {
@@ -60,7 +60,7 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-kn_values-kn.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-kn\\values-kn.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-kn\\values-kn.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -133,6 +133,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-cs\\values-cs.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2846",
+                        "endColumns": "100",
+                        "endOffsets": "2942"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\3b9678029632a8bd70da4e4034bdbe61\\jetified-play-services-basement-17.0.0\\res\\values-cs\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -148,46 +165,12 @@
                         "endColumns": "201",
                         "endOffsets": "1454"
                     }
-                },
-                {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-cs\\values-cs.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2846",
-                        "endColumns": "100",
-                        "endOffsets": "2942"
-                    }
                 }
             ]
         },
         {
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-bn_values-bn.arsc.flat",
             "map": [
-                {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-bn\\values-bn.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2765",
-                        "endColumns": "100",
-                        "endOffsets": "2861"
-                    }
-                },
                 {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\b346347578bb8fc77a13c257fc80238e\\jetified-play-services-base-17.0.0\\res\\values-bn\\values.xml",
                     "from": {
@@ -221,6 +204,23 @@
                         "endColumns": "210",
                         "endOffsets": "1451"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-bn\\values-bn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2765",
+                        "endColumns": "100",
+                        "endOffsets": "2861"
+                    }
                 }
             ]
         },
@@ -245,23 +245,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2856",
-                        "endColumns": "100",
-                        "endOffsets": "2952"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\b346347578bb8fc77a13c257fc80238e\\jetified-play-services-base-17.0.0\\res\\values-pt-rBR\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -276,6 +259,23 @@
                         "startOffsets": "105,212,392,521,631,857,989,1141,1479,1708,1818,2013,2145,2361,2548,2647,2743",
                         "endColumns": "106,179,128,109,225,131,151,133,228,109,194,131,215,186,98,95,112",
                         "endOffsets": "207,387,516,626,852,984,1136,1270,1703,1813,2008,2140,2356,2543,2642,2738,2851"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2856",
+                        "endColumns": "100",
+                        "endOffsets": "2952"
                     }
                 }
             ]
@@ -301,7 +301,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-fr-rCA\\values-fr-rCA.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -357,23 +357,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-ms\\values-ms.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2950",
-                        "endColumns": "100",
-                        "endOffsets": "3046"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\3b9678029632a8bd70da4e4034bdbe61\\jetified-play-services-basement-17.0.0\\res\\values-ms\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -389,6 +372,23 @@
                         "endColumns": "204",
                         "endOffsets": "1509"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-ms\\values-ms.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2950",
+                        "endColumns": "100",
+                        "endOffsets": "3046"
+                    }
                 }
             ]
         },
@@ -396,7 +396,7 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-en-rAU_values-en-rAU.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -411,7 +411,7 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-pt_values-pt.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -443,7 +443,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-tr\\values-tr.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-tr\\values-tr.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -482,7 +482,7 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-tl_values-tl.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-tl\\values-tl.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-tl\\values-tl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -572,7 +572,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-es\\values-es.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-es\\values-es.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -594,7 +594,7 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-ml_values-ml.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-ml\\values-ml.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-ml\\values-ml.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -684,7 +684,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-it\\values-it.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-it\\values-it.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -706,7 +706,7 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-hi_values-hi.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-hi\\values-hi.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-hi\\values-hi.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -796,7 +796,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -818,23 +818,6 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-ky_values-ky.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-ky\\values-ky.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2805",
-                        "endColumns": "100",
-                        "endOffsets": "2901"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\b346347578bb8fc77a13c257fc80238e\\jetified-play-services-base-17.0.0\\res\\values-ky\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -849,6 +832,23 @@
                         "startOffsets": "105,213,394,525,634,838,967,1112,1471,1699,1808,1989,2121,2317,2514,2608,2698",
                         "endColumns": "107,180,130,108,203,128,144,137,227,108,180,131,195,196,93,89,106",
                         "endOffsets": "208,389,520,629,833,962,1107,1245,1694,1803,1984,2116,2312,2509,2603,2693,2800"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-ky\\values-ky.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2805",
+                        "endColumns": "100",
+                        "endOffsets": "2901"
                     }
                 },
                 {
@@ -874,6 +874,23 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-te_values-te.arsc.flat",
             "map": [
                 {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-te\\values-te.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2782",
+                        "endColumns": "100",
+                        "endOffsets": "2878"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\b346347578bb8fc77a13c257fc80238e\\jetified-play-services-base-17.0.0\\res\\values-te\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -888,23 +905,6 @@
                         "startOffsets": "105,217,403,535,652,848,975,1110,1438,1646,1760,1944,2074,2284,2477,2571,2671",
                         "endColumns": "111,185,131,116,195,126,134,128,207,113,183,129,209,192,93,99,110",
                         "endOffsets": "212,398,530,647,843,970,1105,1234,1641,1755,1939,2069,2279,2472,2566,2666,2777"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-te\\values-te.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2782",
-                        "endColumns": "100",
-                        "endOffsets": "2878"
                     }
                 },
                 {
@@ -947,7 +947,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-da\\values-da.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-da\\values-da.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -986,7 +986,7 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-ka_values-ka.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-ka\\values-ka.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-ka\\values-ka.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1059,7 +1059,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-sr\\values-sr.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-sr\\values-sr.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1115,7 +1115,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-eu\\values-eu.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-eu\\values-eu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1154,7 +1154,7 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-fi_values-fi.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-fi\\values-fi.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-fi\\values-fi.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1244,7 +1244,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-in\\values-in.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-in\\values-in.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1265,23 +1265,6 @@
         {
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-sw_values-sw.arsc.flat",
             "map": [
-                {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-sw\\values-sw.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2855",
-                        "endColumns": "100",
-                        "endOffsets": "2951"
-                    }
-                },
                 {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\b346347578bb8fc77a13c257fc80238e\\jetified-play-services-base-17.0.0\\res\\values-sw\\values.xml",
                     "from": {
@@ -1315,6 +1298,23 @@
                         "endColumns": "204",
                         "endOffsets": "1478"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-sw\\values-sw.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2855",
+                        "endColumns": "100",
+                        "endOffsets": "2951"
+                    }
                 }
             ]
         },
@@ -1322,7 +1322,7 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-v16_values-v16.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1371,7 +1371,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-sk\\values-sk.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-sk\\values-sk.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1410,6 +1410,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-my\\values-my.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2948",
+                        "endColumns": "100",
+                        "endOffsets": "3044"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\3b9678029632a8bd70da4e4034bdbe61\\jetified-play-services-basement-17.0.0\\res\\values-my\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -1424,23 +1441,6 @@
                         "startOffsets": "1291",
                         "endColumns": "212",
                         "endOffsets": "1499"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-my\\values-my.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2948",
-                        "endColumns": "100",
-                        "endOffsets": "3044"
                     }
                 }
             ]
@@ -1483,7 +1483,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-pa\\values-pa.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-pa\\values-pa.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1522,23 +1522,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-or\\values-or.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2883",
-                        "endColumns": "100",
-                        "endOffsets": "2979"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\3b9678029632a8bd70da4e4034bdbe61\\jetified-play-services-basement-17.0.0\\res\\values-or\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -1553,6 +1536,23 @@
                         "startOffsets": "1302",
                         "endColumns": "198",
                         "endOffsets": "1496"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-or\\values-or.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2883",
+                        "endColumns": "100",
+                        "endOffsets": "2979"
                     }
                 }
             ]
@@ -1578,7 +1578,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1634,7 +1634,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-ar\\values-ar.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-ar\\values-ar.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1690,7 +1690,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-ru\\values-ru.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-ru\\values-ru.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1729,23 +1729,6 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-uz_values-uz.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-uz\\values-uz.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2835",
-                        "endColumns": "100",
-                        "endOffsets": "2931"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\b346347578bb8fc77a13c257fc80238e\\jetified-play-services-base-17.0.0\\res\\values-uz\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -1760,6 +1743,23 @@
                         "startOffsets": "105,212,394,525,636,840,975,1125,1469,1700,1810,2000,2134,2347,2539,2635,2726",
                         "endColumns": "106,181,130,110,203,134,149,134,230,109,189,133,212,191,95,90,108",
                         "endOffsets": "207,389,520,631,835,970,1120,1255,1695,1805,1995,2129,2342,2534,2630,2721,2830"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-uz\\values-uz.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2835",
+                        "endColumns": "100",
+                        "endOffsets": "2931"
                     }
                 },
                 {
@@ -1784,6 +1784,23 @@
         {
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-am_values-am.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-am\\values-am.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2600",
+                        "endColumns": "100",
+                        "endOffsets": "2696"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\b346347578bb8fc77a13c257fc80238e\\jetified-play-services-base-17.0.0\\res\\values-am\\values.xml",
                     "from": {
@@ -1817,9 +1834,14 @@
                         "endColumns": "190",
                         "endOffsets": "1374"
                     }
-                },
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-lo_values-lo.arsc.flat",
+            "map": [
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-am\\values-am.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-lo\\values-lo.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1830,16 +1852,11 @@
                     "to": {
                         "startLines": "20",
                         "startColumns": "4",
-                        "startOffsets": "2600",
+                        "startOffsets": "2848",
                         "endColumns": "100",
-                        "endOffsets": "2696"
+                        "endOffsets": "2944"
                     }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-lo_values-lo.arsc.flat",
-            "map": [
+                },
                 {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\b346347578bb8fc77a13c257fc80238e\\jetified-play-services-base-17.0.0\\res\\values-lo\\values.xml",
                     "from": {
@@ -1873,23 +1890,6 @@
                         "endColumns": "190",
                         "endOffsets": "1465"
                     }
-                },
-                {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-lo\\values-lo.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2848",
-                        "endColumns": "100",
-                        "endOffsets": "2944"
-                    }
                 }
             ]
         },
@@ -1914,7 +1914,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-si\\values-si.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-si\\values-si.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1970,7 +1970,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-sq\\values-sq.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-sq\\values-sq.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -2043,7 +2043,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-lv\\values-lv.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-lv\\values-lv.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -2065,7 +2065,7 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-af_values-af.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-af\\values-af.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-af\\values-af.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -2138,23 +2138,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-is\\values-is.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2742",
-                        "endColumns": "100",
-                        "endOffsets": "2838"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\b346347578bb8fc77a13c257fc80238e\\jetified-play-services-base-17.0.0\\res\\values-is\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -2169,6 +2152,23 @@
                         "startOffsets": "105,213,399,526,637,837,964,1103,1425,1638,1746,1934,2062,2263,2447,2541,2634",
                         "endColumns": "107,185,126,110,199,126,138,133,212,107,187,127,200,183,93,92,107",
                         "endOffsets": "208,394,521,632,832,959,1098,1232,1633,1741,1929,2057,2258,2442,2536,2629,2737"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-is\\values-is.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2742",
+                        "endColumns": "100",
+                        "endOffsets": "2838"
                     }
                 }
             ]
@@ -2211,7 +2211,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-ko\\values-ko.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-ko\\values-ko.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -2232,23 +2232,6 @@
         {
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-lt_values-lt.arsc.flat",
             "map": [
-                {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-lt\\values-lt.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2860",
-                        "endColumns": "100",
-                        "endOffsets": "2956"
-                    }
-                },
                 {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\3b9678029632a8bd70da4e4034bdbe61\\jetified-play-services-basement-17.0.0\\res\\values-lt\\values.xml",
                     "from": {
@@ -2282,6 +2265,23 @@
                         "endColumns": "108,183,133,108,211,131,148,134,224,110,195,135,211,179,97,95,118",
                         "endOffsets": "209,393,527,636,848,980,1129,1264,1707,1818,2014,2150,2362,2542,2640,2736,2855"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-lt\\values-lt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2860",
+                        "endColumns": "100",
+                        "endOffsets": "2956"
+                    }
                 }
             ]
         },
@@ -2306,7 +2306,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-az\\values-az.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-az\\values-az.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -2379,7 +2379,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-gu\\values-gu.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-gu\\values-gu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -2418,7 +2418,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-gl\\values-gl.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-gl\\values-gl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -2457,7 +2457,7 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-en-rCA_values-en-rCA.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-en-rCA\\values-en-rCA.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -2471,23 +2471,6 @@
         {
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-ne_values-ne.arsc.flat",
             "map": [
-                {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-ne\\values-ne.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2933",
-                        "endColumns": "100",
-                        "endOffsets": "3029"
-                    }
-                },
                 {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\3b9678029632a8bd70da4e4034bdbe61\\jetified-play-services-basement-17.0.0\\res\\values-ne\\values.xml",
                     "from": {
@@ -2521,12 +2504,46 @@
                         "endColumns": "116,189,135,118,229,137,139,133,238,119,194,138,206,181,95,101,120",
                         "endOffsets": "217,407,543,662,892,1030,1170,1304,1766,1886,2081,2220,2427,2609,2705,2807,2928"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-ne\\values-ne.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2933",
+                        "endColumns": "100",
+                        "endOffsets": "3029"
+                    }
                 }
             ]
         },
         {
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-mr_values-mr.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-mr\\values-mr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2752",
+                        "endColumns": "100",
+                        "endOffsets": "2848"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\b346347578bb8fc77a13c257fc80238e\\jetified-play-services-base-17.0.0\\res\\values-mr\\values.xml",
                     "from": {
@@ -2560,23 +2577,6 @@
                         "endColumns": "201",
                         "endOffsets": "1440"
                     }
-                },
-                {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-mr\\values-mr.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2752",
-                        "endColumns": "100",
-                        "endOffsets": "2848"
-                    }
                 }
             ]
         },
@@ -2601,6 +2601,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-uk\\values-uk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2820",
+                        "endColumns": "100",
+                        "endOffsets": "2916"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\b346347578bb8fc77a13c257fc80238e\\jetified-play-services-base-17.0.0\\res\\values-uk\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -2615,23 +2632,6 @@
                         "startOffsets": "105,215,410,539,651,864,995,1140,1479,1706,1814,2007,2134,2340,2512,2612,2703",
                         "endColumns": "109,194,128,111,212,130,144,133,226,107,192,126,205,171,99,90,116",
                         "endOffsets": "210,405,534,646,859,990,1135,1269,1701,1809,2002,2129,2335,2507,2607,2698,2815"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-uk\\values-uk.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2820",
-                        "endColumns": "100",
-                        "endOffsets": "2916"
                     }
                 }
             ]
@@ -2674,7 +2674,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-hu\\values-hu.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-hu\\values-hu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -2696,7 +2696,7 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-en-rIN_values-en-rIN.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -2728,6 +2728,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-mk\\values-mk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2837",
+                        "endColumns": "100",
+                        "endOffsets": "2933"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\3b9678029632a8bd70da4e4034bdbe61\\jetified-play-services-basement-17.0.0\\res\\values-mk\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -2742,23 +2759,6 @@
                         "startOffsets": "1282",
                         "endColumns": "195",
                         "endOffsets": "1473"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-mk\\values-mk.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2837",
-                        "endColumns": "100",
-                        "endOffsets": "2933"
                     }
                 }
             ]
@@ -2784,6 +2784,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-fr\\values-fr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2996",
+                        "endColumns": "100",
+                        "endOffsets": "3092"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\b346347578bb8fc77a13c257fc80238e\\jetified-play-services-base-17.0.0\\res\\values-fr\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -2798,23 +2815,6 @@
                         "startOffsets": "105,213,425,557,668,898,1033,1184,1550,1787,1901,2117,2255,2474,2683,2786,2883",
                         "endColumns": "107,211,131,110,229,134,150,141,236,113,215,137,218,208,102,96,112",
                         "endOffsets": "208,420,552,663,893,1028,1179,1321,1782,1896,2112,2250,2469,2678,2781,2878,2991"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-fr\\values-fr.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2996",
-                        "endColumns": "100",
-                        "endOffsets": "3092"
                     }
                 }
             ]
@@ -2857,7 +2857,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-el\\values-el.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-el\\values-el.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -2878,6 +2878,23 @@
         {
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-vi_values-vi.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2852",
+                        "endColumns": "100",
+                        "endOffsets": "2948"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\b346347578bb8fc77a13c257fc80238e\\jetified-play-services-base-17.0.0\\res\\values-vi\\values.xml",
                     "from": {
@@ -2911,23 +2928,6 @@
                         "endColumns": "194",
                         "endOffsets": "1475"
                     }
-                },
-                {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-vi\\values-vi.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2852",
-                        "endColumns": "100",
-                        "endOffsets": "2948"
-                    }
                 }
             ]
         },
@@ -2952,6 +2952,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-sl\\values-sl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2818",
+                        "endColumns": "100",
+                        "endOffsets": "2914"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\3b9678029632a8bd70da4e4034bdbe61\\jetified-play-services-basement-17.0.0\\res\\values-sl\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -2966,23 +2983,6 @@
                         "startOffsets": "1265",
                         "endColumns": "198",
                         "endOffsets": "1459"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-sl\\values-sl.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2818",
-                        "endColumns": "100",
-                        "endOffsets": "2914"
                     }
                 }
             ]
@@ -3025,7 +3025,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-km\\values-km.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-km\\values-km.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -3064,7 +3064,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-hy\\values-hy.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-hy\\values-hy.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -3103,6 +3103,23 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-ur_values-ur.arsc.flat",
             "map": [
                 {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-ur\\values-ur.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2833",
+                        "endColumns": "100",
+                        "endOffsets": "2929"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\b346347578bb8fc77a13c257fc80238e\\jetified-play-services-base-17.0.0\\res\\values-ur\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -3134,23 +3151,6 @@
                         "startOffsets": "1255",
                         "endColumns": "210",
                         "endOffsets": "1461"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-ur\\values-ur.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2833",
-                        "endColumns": "100",
-                        "endOffsets": "2929"
                     }
                 }
             ]
@@ -3193,7 +3193,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-sv\\values-sv.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-sv\\values-sv.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -3215,7 +3215,7 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-ta_values-ta.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-ta\\values-ta.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-ta\\values-ta.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -3271,25 +3271,6 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,171,172,176,177,178,6,13,56,88,125",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,124,187,245,7725,7795,7863,7935,8005,8066,8140,8213,8274,8335,8397,8461,8523,8584,8652,8752,8812,8878,8951,9020,9077,9129,9191,9263,9339,9374,9409,9459,9520,9577,9611,9646,9681,9751,9822,9939,10140,10250,10451,10580,10652,319,617,3523,5588,7348",
-                        "endLines": "2,3,4,5,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,170,171,175,176,177,178,12,55,87,124,131",
-                        "endColumns": "68,62,57,73,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,49,60,56,33,34,34,69,70,116,12,109,12,128,71,66,24,24,24,24,24",
-                        "endOffsets": "119,182,240,314,7790,7858,7930,8000,8061,8135,8208,8269,8330,8392,8456,8518,8579,8647,8747,8807,8873,8946,9015,9072,9124,9186,9258,9334,9369,9404,9454,9515,9572,9606,9641,9676,9746,9817,9934,10135,10245,10446,10575,10647,10714,612,3518,5583,7343,7720"
-                    },
-                    "to": {
-                        "startLines": "11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,48,75,84,85,89,90,94,95,96,100,206,249,281,318",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "837,906,969,1027,1101,1171,1239,1311,1381,1442,1516,1589,1650,1711,1773,1837,1899,1960,2028,2128,2188,2254,2327,2396,2453,2505,2567,2639,2715,2750,2785,2835,2896,2953,2987,3022,3125,6390,6923,7040,7241,7351,7552,7681,7753,7965,14082,16988,19053,20813",
-                        "endLines": "11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,48,75,84,88,89,93,94,95,96,106,248,280,317,324",
-                        "endColumns": "68,62,57,73,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,49,60,56,33,34,34,69,70,116,12,109,12,128,71,66,24,24,24,24,24",
-                        "endOffsets": "901,964,1022,1096,1166,1234,1306,1376,1437,1511,1584,1645,1706,1768,1832,1894,1955,2023,2123,2183,2249,2322,2391,2448,2500,2562,2634,2710,2745,2780,2830,2891,2948,2982,3017,3052,3190,6456,7035,7236,7346,7547,7676,7748,7815,8258,16983,19048,20808,21185"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\3b9678029632a8bd70da4e4034bdbe61\\jetified-play-services-basement-17.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "4,7",
@@ -3299,11 +3280,30 @@
                         "endOffsets": "301,567"
                     },
                     "to": {
-                        "startLines": "47,57",
+                        "startLines": "84,94",
                         "startColumns": "4,4",
-                        "startOffsets": "3057,4235",
+                        "startOffsets": "5259,6437",
                         "endColumns": "67,166",
-                        "endOffsets": "3120,4397"
+                        "endOffsets": "5322,6599"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,83,84,88,89,90,91,98,141,173,210",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,187,245,319,389,457,529,599,660,734,807,868,929,991,1055,1117,1178,1246,1346,1406,1472,1545,1614,1671,1723,1785,1857,1933,1998,2057,2116,2176,2236,2296,2356,2416,2476,2536,2596,2656,2716,2775,2835,2895,2955,3015,3075,3135,3195,3255,3315,3375,3434,3494,3554,3613,3672,3731,3790,3849,3908,3943,3978,4033,4096,4151,4209,4266,4316,4377,4434,4468,4503,4538,4608,4679,4796,4997,5107,5308,5437,5509,5576,5874,8780,10845,12605",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,82,83,87,88,89,90,97,140,172,209,216",
+                        "endColumns": "68,62,57,73,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,64,58,58,59,59,59,59,59,59,59,59,59,59,58,59,59,59,59,59,59,59,59,59,59,58,59,59,58,58,58,58,58,58,34,34,54,62,54,57,56,49,60,56,33,34,34,69,70,116,12,109,12,128,71,66,24,24,24,24,24",
+                        "endOffsets": "119,182,240,314,384,452,524,594,655,729,802,863,924,986,1050,1112,1173,1241,1341,1401,1467,1540,1609,1666,1718,1780,1852,1928,1993,2052,2111,2171,2231,2291,2351,2411,2471,2531,2591,2651,2711,2770,2830,2890,2950,3010,3070,3130,3190,3250,3310,3370,3429,3489,3549,3608,3667,3726,3785,3844,3903,3938,3973,4028,4091,4146,4204,4261,4311,4372,4429,4463,4498,4533,4603,4674,4791,4992,5102,5303,5432,5504,5571,5869,8775,10840,12600,12977"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,85,112,121,122,126,127,131,132,133,134,141,184,216,253",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "776,845,908,966,1040,1110,1178,1250,1320,1381,1455,1528,1589,1650,1712,1776,1838,1899,1967,2067,2127,2193,2266,2335,2392,2444,2506,2578,2654,2719,2778,2837,2897,2957,3017,3077,3137,3197,3257,3317,3377,3437,3496,3556,3616,3676,3736,3796,3856,3916,3976,4036,4096,4155,4215,4275,4334,4393,4452,4511,4570,4629,4664,4699,4754,4817,4872,4930,4987,5037,5098,5155,5189,5224,5327,8592,9125,9242,9443,9553,9754,9883,9955,10022,10320,13226,15291,17051",
+                        "endLines": "10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,85,112,121,125,126,130,131,132,133,140,183,215,252,259",
+                        "endColumns": "68,62,57,73,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,64,58,58,59,59,59,59,59,59,59,59,59,59,58,59,59,59,59,59,59,59,59,59,59,58,59,59,58,58,58,58,58,58,34,34,54,62,54,57,56,49,60,56,33,34,34,69,70,116,12,109,12,128,71,66,24,24,24,24,24",
+                        "endOffsets": "840,903,961,1035,1105,1173,1245,1315,1376,1450,1523,1584,1645,1707,1771,1833,1894,1962,2062,2122,2188,2261,2330,2387,2439,2501,2573,2649,2714,2773,2832,2892,2952,3012,3072,3132,3192,3252,3312,3372,3432,3491,3551,3611,3671,3731,3791,3851,3911,3971,4031,4091,4150,4210,4270,4329,4388,4447,4506,4565,4624,4659,4694,4749,4812,4867,4925,4982,5032,5093,5150,5184,5219,5254,5392,8658,9237,9438,9548,9749,9878,9950,10017,10315,13221,15286,17046,17423"
                     }
                 },
                 {
@@ -3317,12 +3317,12 @@
                         "endOffsets": "433,953"
                     },
                     "to": {
-                        "startLines": "76,81",
+                        "startLines": "113,118",
                         "startColumns": "4,4",
-                        "startOffsets": "6461,6758",
-                        "endLines": "80,83",
+                        "startOffsets": "8663,8960",
+                        "endLines": "117,120",
                         "endColumns": "12,12",
-                        "endOffsets": "6753,6918"
+                        "endOffsets": "8955,9120"
                     }
                 },
                 {
@@ -3336,31 +3336,12 @@
                         "endOffsets": "300,376,462,548,624,701,777,853,1051,1232,1353,1456,1636,1755,1867,1966,2154,2255,2436,2557,2732,2876,2935,2993,3068,3474,3887"
                     },
                     "to": {
-                        "startLines": "3,4,5,6,7,8,9,10,49,50,51,52,53,54,55,56,58,59,60,61,62,63,64,65,66,325,338",
+                        "startLines": "2,3,4,5,6,7,8,9,86,87,88,89,90,91,92,93,95,96,97,98,99,100,101,102,103,260,273",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "166,256,336,426,516,596,677,757,3195,3300,3481,3606,3713,3893,4016,4132,4402,4590,4695,4876,5001,5176,5324,5387,5449,21190,21505",
-                        "endLines": "3,4,5,6,7,8,9,10,49,50,51,52,53,54,55,56,58,59,60,61,62,63,64,65,66,337,356",
+                        "startOffsets": "105,195,275,365,455,535,616,696,5397,5502,5683,5808,5915,6095,6218,6334,6604,6792,6897,7078,7203,7378,7526,7589,7651,17428,17743",
+                        "endLines": "2,3,4,5,6,7,8,9,86,87,88,89,90,91,92,93,95,96,97,98,99,100,101,102,103,272,291",
                         "endColumns": "89,79,89,89,79,80,79,79,104,180,124,106,179,122,115,102,187,104,180,124,174,147,62,61,78,20,20",
-                        "endOffsets": "251,331,421,511,591,672,752,832,3295,3476,3601,3708,3888,4011,4127,4230,4585,4690,4871,4996,5171,5319,5382,5444,5523,21500,21917"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fa0689e27b2c660c855a6cae2d14cfbe\\coordinatorlayout-1.0.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,102,3,13",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,5935,116,724",
-                        "endLines": "2,104,12,101",
-                        "endColumns": "60,12,24,24",
-                        "endOffsets": "111,6075,719,5930"
-                    },
-                    "to": {
-                        "startLines": "2,97,107,117",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "105,7820,8263,8871",
-                        "endLines": "2,99,116,205",
-                        "endColumns": "60,12,24,24",
-                        "endOffsets": "161,7960,8866,14077"
+                        "endOffsets": "190,270,360,450,530,611,691,771,5497,5678,5803,5910,6090,6213,6329,6432,6787,6892,7073,7198,7373,7521,7584,7646,7725,17738,18155"
                     }
                 },
                 {
@@ -3373,11 +3354,11 @@
                         "endOffsets": "193,310,391,495,603,723,829,912"
                     },
                     "to": {
-                        "startLines": "67,68,69,70,71,72,73,74",
+                        "startLines": "104,105,106,107,108,109,110,111",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "5528,5671,5788,5869,5973,6081,6201,6307",
+                        "startOffsets": "7730,7873,7990,8071,8175,8283,8403,8509",
                         "endColumns": "142,116,80,103,107,119,105,82",
-                        "endOffsets": "5666,5783,5864,5968,6076,6196,6302,6385"
+                        "endOffsets": "7868,7985,8066,8170,8278,8398,8504,8587"
                     }
                 }
             ]
@@ -3403,7 +3384,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -3442,6 +3423,23 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-iw_values-iw.arsc.flat",
             "map": [
                 {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-iw\\values-iw.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2664",
+                        "endColumns": "100",
+                        "endOffsets": "2760"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\b346347578bb8fc77a13c257fc80238e\\jetified-play-services-base-17.0.0\\res\\values-iw\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -3474,23 +3472,6 @@
                         "endColumns": "176",
                         "endOffsets": "1400"
                     }
-                },
-                {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-iw\\values-iw.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2664",
-                        "endColumns": "100",
-                        "endOffsets": "2760"
-                    }
                 }
             ]
         },
@@ -3515,23 +3496,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-nb\\values-nb.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2807",
-                        "endColumns": "100",
-                        "endOffsets": "2903"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\3b9678029632a8bd70da4e4034bdbe61\\jetified-play-services-basement-17.0.0\\res\\values-nb\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -3547,12 +3511,46 @@
                         "endColumns": "188",
                         "endOffsets": "1455"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-nb\\values-nb.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2807",
+                        "endColumns": "100",
+                        "endOffsets": "2903"
+                    }
                 }
             ]
         },
         {
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-ja_values-ja.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-ja\\values-ja.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2549",
+                        "endColumns": "100",
+                        "endOffsets": "2645"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\b346347578bb8fc77a13c257fc80238e\\jetified-play-services-base-17.0.0\\res\\values-ja\\values.xml",
                     "from": {
@@ -3568,23 +3566,6 @@
                         "startOffsets": "105,211,377,499,607,796,918,1053,1362,1553,1656,1820,1941,2120,2270,2360,2449",
                         "endColumns": "105,165,121,107,188,121,134,127,190,102,163,120,178,149,89,88,99",
                         "endOffsets": "206,372,494,602,791,913,1048,1176,1548,1651,1815,1936,2115,2265,2355,2444,2544"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-ja\\values-ja.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2549",
-                        "endColumns": "100",
-                        "endOffsets": "2645"
                     }
                 },
                 {
@@ -3610,7 +3591,7 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-ro_values-ro.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-ro\\values-ro.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-ro\\values-ro.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -3666,6 +3647,23 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-de_values-de.arsc.flat",
             "map": [
                 {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-de\\values-de.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2945",
+                        "endColumns": "100",
+                        "endOffsets": "3041"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\3b9678029632a8bd70da4e4034bdbe61\\jetified-play-services-basement-17.0.0\\res\\values-de\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -3698,23 +3696,6 @@
                         "endColumns": "110,195,129,113,236,132,150,147,238,113,199,132,220,205,100,92,108",
                         "endOffsets": "211,407,537,651,888,1021,1172,1320,1763,1877,2077,2210,2431,2637,2738,2831,2940"
                     }
-                },
-                {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-de\\values-de.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2945",
-                        "endColumns": "100",
-                        "endOffsets": "3041"
-                    }
                 }
             ]
         },
@@ -3739,7 +3720,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-et\\values-et.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-et\\values-et.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -3812,7 +3793,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-fa\\values-fa.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-fa\\values-fa.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -3834,7 +3815,7 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-bs_values-bs.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-bs\\values-bs.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-bs\\values-bs.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -3890,6 +3871,23 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-zh-rHK_values-zh-rHK.arsc.flat",
             "map": [
                 {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2420",
+                        "endColumns": "100",
+                        "endOffsets": "2516"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\b346347578bb8fc77a13c257fc80238e\\jetified-play-services-base-17.0.0\\res\\values-zh-rHK\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -3921,23 +3919,6 @@
                         "startOffsets": "1127",
                         "endColumns": "166",
                         "endOffsets": "1289"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2420",
-                        "endColumns": "100",
-                        "endOffsets": "2516"
                     }
                 }
             ]
@@ -3980,7 +3961,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-bg\\values-bg.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-bg\\values-bg.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -4001,23 +3982,6 @@
         {
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-nl_values-nl.arsc.flat",
             "map": [
-                {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-nl\\values-nl.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2900",
-                        "endColumns": "100",
-                        "endOffsets": "2996"
-                    }
-                },
                 {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\b346347578bb8fc77a13c257fc80238e\\jetified-play-services-base-17.0.0\\res\\values-nl\\values.xml",
                     "from": {
@@ -4051,14 +4015,9 @@
                         "endColumns": "201",
                         "endOffsets": "1489"
                     }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-pt-rPT_values-pt-rPT.arsc.flat",
-            "map": [
+                },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-nl\\values-nl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -4069,11 +4028,16 @@
                     "to": {
                         "startLines": "20",
                         "startColumns": "4",
-                        "startOffsets": "2928",
+                        "startOffsets": "2900",
                         "endColumns": "100",
-                        "endOffsets": "3024"
+                        "endOffsets": "2996"
                     }
-                },
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-pt-rPT_values-pt-rPT.arsc.flat",
+            "map": [
                 {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\3b9678029632a8bd70da4e4034bdbe61\\jetified-play-services-basement-17.0.0\\res\\values-pt-rPT\\values.xml",
                     "from": {
@@ -4089,6 +4053,23 @@
                         "startOffsets": "1294",
                         "endColumns": "203",
                         "endOffsets": "1493"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2928",
+                        "endColumns": "100",
+                        "endOffsets": "3024"
                     }
                 },
                 {
@@ -4131,23 +4112,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-kk\\values-kk.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2811",
-                        "endColumns": "100",
-                        "endOffsets": "2907"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\b346347578bb8fc77a13c257fc80238e\\jetified-play-services-base-17.0.0\\res\\values-kk\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -4162,6 +4126,23 @@
                         "startOffsets": "105,210,395,523,631,830,958,1111,1472,1696,1804,1992,2123,2335,2522,2615,2704",
                         "endColumns": "104,184,127,107,198,127,152,137,223,107,187,130,211,186,92,88,106",
                         "endOffsets": "205,390,518,626,825,953,1106,1244,1691,1799,1987,2118,2330,2517,2610,2699,2806"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-kk\\values-kk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2811",
+                        "endColumns": "100",
+                        "endOffsets": "2907"
                     }
                 }
             ]
@@ -4187,23 +4168,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-hr\\values-hr.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2781",
-                        "endColumns": "100",
-                        "endOffsets": "2877"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\b346347578bb8fc77a13c257fc80238e\\jetified-play-services-base-17.0.0\\res\\values-hr\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -4219,12 +4183,46 @@
                         "endColumns": "107,188,131,111,215,131,144,135,208,108,187,129,205,172,97,91,109",
                         "endOffsets": "208,397,529,641,857,989,1134,1270,1670,1779,1967,2097,2303,2476,2574,2666,2776"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-hr\\values-hr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2781",
+                        "endColumns": "100",
+                        "endOffsets": "2877"
+                    }
                 }
             ]
         },
         {
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-be_values-be.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-be\\values-be.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2826",
+                        "endColumns": "100",
+                        "endOffsets": "2922"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\b346347578bb8fc77a13c257fc80238e\\jetified-play-services-base-17.0.0\\res\\values-be\\values.xml",
                     "from": {
@@ -4258,23 +4256,6 @@
                         "endColumns": "204",
                         "endOffsets": "1467"
                     }
-                },
-                {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-be\\values-be.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2826",
-                        "endColumns": "100",
-                        "endOffsets": "2922"
-                    }
                 }
             ]
         },
@@ -4282,7 +4263,7 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-en-rXC_values-en-rXC.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -4297,7 +4278,7 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-en-rGB_values-en-rGB.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-en-rGB\\values-en-rGB.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -4370,7 +4351,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-zu\\values-zu.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-zu\\values-zu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -4443,7 +4424,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-pl\\values-pl.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-pl\\values-pl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -4482,23 +4463,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-mn\\values-mn.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2809",
-                        "endColumns": "100",
-                        "endOffsets": "2905"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\b346347578bb8fc77a13c257fc80238e\\jetified-play-services-base-17.0.0\\res\\values-mn\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -4514,6 +4478,23 @@
                         "endColumns": "111,188,133,108,195,127,158,138,202,108,198,130,199,197,90,91,105",
                         "endOffsets": "212,401,535,644,840,968,1127,1266,1678,1787,1986,2117,2317,2515,2606,2698,2804"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-mn\\values-mn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2809",
+                        "endColumns": "100",
+                        "endOffsets": "2905"
+                    }
                 }
             ]
         },
@@ -4521,7 +4502,7 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-v21_values-v21.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -4537,23 +4518,6 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-es-rUS_values-es-rUS.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-es-rUS\\values-es-rUS.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2923",
-                        "endColumns": "100",
-                        "endOffsets": "3019"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\b346347578bb8fc77a13c257fc80238e\\jetified-play-services-base-17.0.0\\res\\values-es-rUS\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -4568,6 +4532,23 @@
                         "startOffsets": "105,215,413,547,657,877,1010,1163,1503,1733,1844,2045,2180,2416,2624,2724,2816",
                         "endColumns": "109,197,133,109,219,132,152,134,229,110,200,134,235,207,99,91,106",
                         "endOffsets": "210,408,542,652,872,1005,1158,1293,1728,1839,2040,2175,2411,2619,2719,2811,2918"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2923",
+                        "endColumns": "100",
+                        "endOffsets": "3019"
                     }
                 },
                 {
@@ -4593,7 +4574,7 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-as_values-as.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-as\\values-as.xml",
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-as\\values-as.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -4649,6 +4630,23 @@
             "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\res\\merged\\debug\\values-th_values-th.arsc.flat",
             "map": [
                 {
+                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-th\\values-th.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2718",
+                        "endColumns": "100",
+                        "endOffsets": "2814"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\b346347578bb8fc77a13c257fc80238e\\jetified-play-services-base-17.0.0\\res\\values-th\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -4680,23 +4678,6 @@
                         "startOffsets": "1233",
                         "endColumns": "187",
                         "endOffsets": "1416"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\96c4025afaac6452f26d95fca15db8ca\\core-1.0.0\\res\\values-th\\values-th.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2718",
-                        "endColumns": "100",
-                        "endOffsets": "2814"
                     }
                 }
             ]
