@@ -26,6 +26,8 @@ class _OrderListViewState extends State<OrderListView> {
           builder: (context, snapshot) {
             if (!snapshot.hasData) return CircularProgressIndicator();
             return ListView.builder(
+              shrinkWrap: true,
+              scrollDirection: widget.scrollDirection,
               itemCount: !snapshot.hasData ? 0 : snapshot.data.documents.length,
               itemBuilder: (context, index) {
 
