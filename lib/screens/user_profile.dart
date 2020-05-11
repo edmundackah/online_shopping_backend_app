@@ -69,15 +69,15 @@ class _UserProfileScreenState extends State<UserProfileScreen>{
 
                       Padding(
                         padding: const EdgeInsets.only(left: 18.0, top: 5.0),
-                        child: RaisedButton.icon(
-                          elevation: 5.0,
-                            icon: Icon(Icons.delete, color: Colors.redAccent,),
+                        child: FlatButton.icon(
+                          color: Colors.white,
+                            icon: Icon(Icons.save, color: Colors.green,),
                             onPressed: (){},
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(0.0),
-                                side: BorderSide(color: Colors.red)
+                                side: BorderSide(color: Colors.white)
                             ),
-                            label: Text("Save Changes", style: TextStyle(color: Colors.redAccent),
+                            label: Text("Save Info", style: TextStyle(color: Colors.green),
                             )
                         ),
                       ),
