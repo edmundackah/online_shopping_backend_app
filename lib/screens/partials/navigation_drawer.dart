@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:onlineshoppingbackendapp/logic/firebase_manager.dart';
 import 'package:onlineshoppingbackendapp/screens/homepage.dart';
 import 'package:onlineshoppingbackendapp/screens/orders.dart';
+import 'package:onlineshoppingbackendapp/screens/user_profile.dart';
 import 'package:onlineshoppingbackendapp/screens/users.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -108,7 +109,11 @@ class _NavDrawerState extends State<NavDrawer> {
             padding: const EdgeInsets.only(left: 25.0, right: 50.0, bottom: 8.0),
             child: FlatButton(
               onPressed: () {
-                //TODO: Logic for profile screen
+                Navigator.push(context,
+                    MaterialPageRoute(
+                        builder: (context) =>
+                            UserProfileScreen(docID: snapshot.data.documents[0].documentID)
+                    ));
               },
               child: Row(
                 children: <Widget>[

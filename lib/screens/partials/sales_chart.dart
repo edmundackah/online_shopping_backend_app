@@ -38,6 +38,7 @@ class _SalesChartState extends State<SalesChart>{
           return AspectRatio(
             aspectRatio: 1,
             child: Card(
+              elevation: 5.0,
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10)),
               color: const Color(0xff81e5cd),

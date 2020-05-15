@@ -21,10 +21,10 @@ class _UsersScreenState extends State<UsersScreen>{
     // TODO: implement build
     return Scaffold(
       appBar: MyAppBar(
-        bgColour: Colors.white,
+        bgColour: const Color(0xff77839a),
         title: "Users",
       ),
-      backgroundColor: Colors.white,
+      backgroundColor: const Color(0xff77839a),
       body: Container(
         child: StreamBuilder(
           stream: Firestore.instance.collection("users").snapshots(),
@@ -38,6 +38,7 @@ class _UsersScreenState extends State<UsersScreen>{
                     padding: const EdgeInsets.all(8.0),
                     child: InkWell(
                       child: Card(
+                        color: const Color(0xff2c4260),
                         elevation: 5.0,
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -67,12 +68,15 @@ class _UsersScreenState extends State<UsersScreen>{
                               child: Row(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: <Widget>[
-                                  Icon(Icons.person, color: Colors.black54,),
+                                  Icon(Icons.person, color: Colors.white,),
                                   Padding(
                                     padding: const EdgeInsets.only(left: 12.0),
                                     child: Text(
                                       "${snapshot.data.documents[index]["name"]["first"]}",
-                                      style: TextStyle(fontSize: 22.0, fontWeight: FontWeight.bold),
+                                      style: TextStyle(
+                                          fontSize: 22.0,
+                                          fontWeight: FontWeight.bold,
+                                          color: Colors.white),
                                     ),
                                   ),
                                   Padding(
@@ -81,7 +85,10 @@ class _UsersScreenState extends State<UsersScreen>{
                                       "${snapshot.data.documents[index]["name"]["last"]}",
                                       overflow: TextOverflow.ellipsis,
                                       maxLines: 1,
-                                      style: TextStyle(fontSize: 22.0, fontWeight: FontWeight.bold),
+                                      style: TextStyle(
+                                          fontSize: 22.0,
+                                          fontWeight: FontWeight.bold,
+                                          color: Colors.white),
                                     ),
                                   )
                                 ],
@@ -93,7 +100,7 @@ class _UsersScreenState extends State<UsersScreen>{
                               child: Row(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: <Widget>[
-                                  Icon(Icons.alternate_email, color: Colors.black54,),
+                                  Icon(Icons.alternate_email, color: Colors.white,),
                                   Padding(
                                     padding: const EdgeInsets.only(left: 8.0),
                                     child: Container(
@@ -102,7 +109,7 @@ class _UsersScreenState extends State<UsersScreen>{
                                         "${snapshot.data.documents[index]["email"]}",
                                         overflow: TextOverflow.ellipsis,
                                         maxLines: 1,
-                                        style: TextStyle(fontSize: 18.0, color: Colors.black54),
+                                        style: TextStyle(fontSize: 18.0, color: Colors.white),
                                       ),
                                     ),
                                   )
@@ -115,7 +122,7 @@ class _UsersScreenState extends State<UsersScreen>{
                               child: Row(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: <Widget>[
-                                  Icon(Icons.phone, color: Colors.black54,),
+                                  Icon(Icons.phone, color: Colors.white,),
                                   Padding(
                                     padding: const EdgeInsets.only(left: 8.0),
                                     child: Container(
@@ -124,7 +131,7 @@ class _UsersScreenState extends State<UsersScreen>{
                                         "${snapshot.data.documents[index]["cell"]}",
                                         overflow: TextOverflow.ellipsis,
                                         maxLines: 1,
-                                        style: TextStyle(fontSize: 18.0, color: Colors.black54),
+                                        style: TextStyle(fontSize: 18.0, color: Colors.white),
                                       ),
                                     ),
                                   )
@@ -137,7 +144,7 @@ class _UsersScreenState extends State<UsersScreen>{
                               child: Row(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: <Widget>[
-                                  Icon(Icons.place, color: Colors.black54,),
+                                  Icon(Icons.place, color: Colors.white,),
                                   Padding(
                                     padding: const EdgeInsets.only(left: 8.0),
                                     child: Container(
@@ -146,7 +153,7 @@ class _UsersScreenState extends State<UsersScreen>{
                                         "${snapshot.data.documents[index]["location"]["country"]}",
                                         overflow: TextOverflow.ellipsis,
                                         maxLines: 1,
-                                        style: TextStyle(fontSize: 18.0, color: Colors.black54),
+                                        style: TextStyle(fontSize: 18.0, color: Colors.white),
                                       ),
                                     ),
                                   ),

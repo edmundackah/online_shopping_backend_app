@@ -193,7 +193,15 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
         );
         break;
       case 2 :
-        return UserGrowthChart(position: position);
+        return InkWell(
+            onDoubleTap: (){
+              Navigator.push(context,
+                  MaterialPageRoute(
+                      builder: (context) => UsersScreen()
+                  ));
+            },
+            child: UserGrowthChart(position: position)
+        );
         break;
       default:
         return _statCard( position);
@@ -203,6 +211,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
 
   Widget _statCard(int position) {
     return Card(
+      elevation: 5.0,
       child: Container(
         width: 250.0,
         child: Column(

@@ -53,7 +53,7 @@ class _UserGrowthChartState extends State<UserGrowthChart>{
     return AspectRatio(
       aspectRatio: 1,
       child: Card(
-        elevation: 0,
+        elevation: 5.0,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
         color: const Color(0xff2c4260),
         child: Padding(

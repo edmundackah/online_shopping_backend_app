@@ -1,8 +1,10 @@
 import 'dart:math';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_advanced_networkimage/provider.dart';
+import 'package:onlineshoppingbackendapp/screens/orders.dart';
 import 'package:onlineshoppingbackendapp/screens/partials/appbar.dart';
 import 'package:flutter_holo_date_picker/flutter_holo_date_picker.dart';
 
@@ -17,12 +19,29 @@ class UserProfileScreen extends StatefulWidget {
 
 class _UserProfileScreenState extends State<UserProfileScreen>{
   final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
+  final GlobalKey<FormState> _formKey = new GlobalKey<FormState>();
+
   final int _reviews = 20 + Random().nextInt(200 - 20);
+
+  final TextEditingController _titleController = new TextEditingController();
+  final TextEditingController _firstNameController = new TextEditingController();
+  final TextEditingController _lastNameController = new TextEditingController();
+  final TextEditingController _phoneNumController = new TextEditingController();
+
+  @override
+  void dispose() {
+    _titleController.dispose();
+    _lastNameController.dispose();
+    _phoneNumController.dispose();
+    _firstNameController.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
+      key: _scaffoldKey,
       appBar: MyAppBar(
         bgColour: Colors.white,
         title: "Users",
@@ -34,6 +53,12 @@ class _UserProfileScreenState extends State<UserProfileScreen>{
         builder: (context, snapshot) {
           if (!snapshot.hasData) return CircularProgressIndicator();
           if (snapshot.data["reviews"] == null) _saveReviewCount();
+
+          _titleController.text = snapshot.data["name"]["title"];
+          _firstNameController.text = snapshot.data["name"]["first"];
+          _lastNameController.text = snapshot.data["name"]["last"];
+          _phoneNumController.text = snapshot.data["cell"];
+
           return SingleChildScrollView(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -66,22 +91,6 @@ class _UserProfileScreenState extends State<UserProfileScreen>{
                           color: Colors.blueGrey[500],
                         ),
                       ),
-
-                      Padding(
-                        padding: const EdgeInsets.only(left: 18.0, top: 5.0),
-                        child: FlatButton.icon(
-                          color: Colors.white,
-                            icon: Icon(Icons.save, color: Colors.green,),
-                            onPressed: (){},
-                            shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(0.0),
-                                side: BorderSide(color: Colors.white)
-                            ),
-                            label: Text("Save Info", style: TextStyle(color: Colors.green),
-                            )
-                        ),
-                      ),
-
                     ],
                   ),
                 ),
@@ -105,11 +114,47 @@ class _UserProfileScreenState extends State<UserProfileScreen>{
                                   style: TextStyle(fontSize: 16.0, color: Colors.grey),
                                 ),
                                 TextFormField(
-                                  initialValue: snapshot.data["name"]["title"],
                                   style:  TextStyle(
                                     fontSize: 20.0,
                                   ),
                                   autocorrect: true,
+                                  controller: _titleController,
+                                  textCapitalization: TextCapitalization.words,
+                                  onEditingComplete: () async {
+
+                                    String text = _titleController.text;
+
+                                    if (text.length > 2 && text.isNotEmpty) {
+                                      final DocumentReference postRef = Firestore
+                                          .instance.collection("users").document(widget.docID);
+                                      Firestore.instance.runTransaction((
+                                          Transaction tx) async {
+                                        DocumentSnapshot postSnapshot = await tx.get(
+                                            postRef);
+                                        if (postSnapshot.exists) {
+                                          var nameArray = postSnapshot.data["name"];
+                                          nameArray["title"] = text;
+                                          await tx.update(postRef, <String, dynamic>{
+                                            'name': nameArray
+                                          }).catchError((onError){
+                                            _scaffoldKey.currentState.showSnackBar(SnackBar(
+                                              content: Text("Failed to update Title",
+                                                  style: TextStyle(color: Colors.white)),
+                                              backgroundColor: Colors.red,
+                                              duration: Duration(seconds: 3),
+                                            ));
+                                          });
+                                        }
+                                      });
+                                    } else {
+                                      _scaffoldKey.currentState.showSnackBar(SnackBar(
+                                        content: Text("Title must be at least 2 characters",
+                                            style: TextStyle(color: Colors.white)),
+                                        backgroundColor: Colors.red,
+                                        duration: Duration(seconds: 3),
+                                      ));
+                                    }
+                                  },
                                 ),
                               ],
                             ),
@@ -124,11 +169,47 @@ class _UserProfileScreenState extends State<UserProfileScreen>{
                                   style: TextStyle(fontSize: 16.0, color: Colors.grey),
                                 ),
                                 TextFormField(
-                                  initialValue: snapshot.data["name"]["first"],
                                   style:  TextStyle(
                                     fontSize: 20.0,
                                   ),
                                   autocorrect: true,
+                                  textCapitalization: TextCapitalization.words,
+                                  controller: _firstNameController,
+                                  onEditingComplete: () {
+
+                                    String text = _firstNameController.text;
+
+                                    if (text.length > 2 && text.isNotEmpty) {
+                                      final DocumentReference postRef = Firestore
+                                          .instance.collection("users").document(widget.docID);
+                                      Firestore.instance.runTransaction((
+                                          Transaction tx) async {
+                                        DocumentSnapshot postSnapshot = await tx.get(
+                                            postRef);
+                                        if (postSnapshot.exists) {
+                                          var nameArray = postSnapshot.data["name"];
+                                          nameArray["first"] = text;
+                                          await tx.update(postRef, <String, dynamic>{
+                                            'name': nameArray
+                                          }).catchError((onError){
+                                            _scaffoldKey.currentState.showSnackBar(SnackBar(
+                                              content: Text("Failed to update name",
+                                                  style: TextStyle(color: Colors.white)),
+                                              backgroundColor: Colors.red,
+                                              duration: Duration(seconds: 3),
+                                            ));
+                                          });
+                                        }
+                                      });
+                                    } else {
+                                      _scaffoldKey.currentState.showSnackBar(SnackBar(
+                                        content: Text("Name must be at least 2 characters",
+                                            style: TextStyle(color: Colors.white)),
+                                        backgroundColor: Colors.red,
+                                        duration: Duration(seconds: 3),
+                                      ));
+                                    }
+                                  },
                                 ),
                               ],
                             ),
@@ -143,11 +224,48 @@ class _UserProfileScreenState extends State<UserProfileScreen>{
                                   style: TextStyle(fontSize: 16.0, color: Colors.grey),
                                 ),
                                 TextFormField(
-                                  initialValue: snapshot.data["name"]["last"],
                                   style:  TextStyle(
                                     fontSize: 20.0,
                                   ),
                                   autocorrect: true,
+                                  textCapitalization: TextCapitalization.words,
+                                  controller: _lastNameController,
+                                  onEditingComplete: () {
+
+                                    String text = _lastNameController.text;
+
+                                    if (text.length > 2 && text.isNotEmpty) {
+                                      final DocumentReference postRef = Firestore
+                                          .instance.collection("users").document(widget.docID);
+
+                                      Firestore.instance.runTransaction((
+                                          Transaction tx) async {
+                                        DocumentSnapshot postSnapshot = await tx.get(
+                                            postRef);
+                                        if (postSnapshot.exists) {
+                                          var nameArray = postSnapshot.data["name"];
+                                          nameArray["last"] = text;
+                                          await tx.update(postRef, <String, dynamic>{
+                                            'name': nameArray
+                                          }).catchError((onError){
+                                            _scaffoldKey.currentState.showSnackBar(SnackBar(
+                                              content: Text("Failed to update name",
+                                                  style: TextStyle(color: Colors.white)),
+                                              backgroundColor: Colors.red,
+                                              duration: Duration(seconds: 3),
+                                            ));
+                                          });
+                                        }
+                                      });
+                                    } else {
+                                      _scaffoldKey.currentState.showSnackBar(SnackBar(
+                                        content: Text("Name must be at least 2 characters",
+                                            style: TextStyle(color: Colors.white)),
+                                        backgroundColor: Colors.red,
+                                        duration: Duration(seconds: 3),
+                                      ));
+                                    }
+                                  },
                                 ),
                               ],
                             ),
@@ -182,11 +300,49 @@ class _UserProfileScreenState extends State<UserProfileScreen>{
                                   style: TextStyle(fontSize: 16.0, color: Colors.grey),
                                 ),
                                 TextFormField(
-                                  initialValue: snapshot.data["cell"],
+                                  key: _formKey,
                                   style:  TextStyle(
                                     fontSize: 20.0,
                                   ),
                                   autocorrect: true,
+                                  controller: _phoneNumController,
+                                  keyboardType: TextInputType.phone,
+                                  onEditingComplete: () {
+
+                                    String number = _phoneNumController.text
+                                        .replaceAll(" ", "").replaceAll("-", "");
+
+                                    if (number.length > 9 &&number.isNotEmpty ) {
+                                      final DocumentReference postRef = Firestore
+                                          .instance.collection("users").document(widget.docID);
+
+                                      Firestore.instance.runTransaction((
+                                          Transaction tx) async {
+                                        DocumentSnapshot postSnapshot = await tx.get(
+                                            postRef);
+                                        if (postSnapshot.exists) {
+                                          await tx.update(postRef, <String, dynamic>{
+                                            'cell': _phoneNumController.text
+                                          }).catchError((onError){
+                                            _scaffoldKey.currentState.showSnackBar(SnackBar(
+                                              content: Text("Failed to update phone number",
+                                                  style: TextStyle(color: Colors.white)),
+                                              backgroundColor: Colors.red,
+                                              duration: Duration(seconds: 3),
+                                            ));
+                                          });
+                                        }
+                                      });
+
+                                    } else {
+                                      _scaffoldKey.currentState.showSnackBar(SnackBar(
+                                        content: Text("Number must be 11 digits",
+                                            style: TextStyle(color: Colors.white)),
+                                        backgroundColor: Colors.red,
+                                        duration: Duration(seconds: 3),
+                                      ));
+                                    }
+                                  },
                                 ),
                               ],
                             ),
@@ -204,22 +360,63 @@ class _UserProfileScreenState extends State<UserProfileScreen>{
                                 InkWell(
                                   child: Padding(
                                     padding: const EdgeInsets.only(top: 15.0, bottom: 20.0),
-                                    child: Text(snapshot.data["dob"]["date"],
+                                    child: Text(snapshot.data["dob"]["date"].toString().substring(0, 10),
                                       style: TextStyle(fontSize: 20.0),
                                     ),
                                   ),
                                   onTap: () async {
-                                    var datePicked = await DatePicker.showSimpleDatePicker(
+                                    DateTime datePicked = await DatePicker.showSimpleDatePicker(
                                       context,
-                                      initialDate: null,
-                                      firstDate: DateTime(1920),
+                                      initialDate: DateTime.parse(snapshot.data["dob"]["date"]),
+                                      firstDate: DateTime(1930),
                                       lastDate: DateTime(DateTime.now().year),
                                       dateFormat: "dd-MMMM-yyyy",
                                       locale: DateTimePickerLocale.en_us,
                                       looping: true,
                                     );
 
-                                    print(datePicked.toUtc().toString());
+                                    if (datePicked != null ) {
+
+                                      DateTime today = DateTime.now();
+                                      int age = (today.difference(datePicked).inDays / 365).floor();
+
+                                      if (age >= 12) {
+                                        final DocumentReference postRef = Firestore
+                                            .instance.collection("users").document(widget.docID);
+
+                                        Firestore.instance.runTransaction((
+                                            Transaction tx) async {
+                                          DocumentSnapshot postSnapshot = await tx.get(
+                                              postRef);
+                                          if (postSnapshot.exists) {
+
+                                            var dobArray = postSnapshot.data["dob"];
+                                            dobArray["age"] = age;
+                                            dobArray["date"] = datePicked.toUtc().toString();
+
+                                            await tx.update(postRef, <String, dynamic>{
+                                              'dob': dobArray
+                                            }).catchError((onError){
+                                              _scaffoldKey.currentState.showSnackBar(SnackBar(
+                                                content: Text("Failed to update D.O.B",
+                                                    style: TextStyle(color: Colors.white)),
+                                                backgroundColor: Colors.red,
+                                                duration: Duration(seconds: 3),
+                                              ));
+                                            });
+                                          }
+                                        });
+
+                                      } else {
+                                        _scaffoldKey.currentState.showSnackBar(SnackBar(
+                                          content: Text("Must be 12 or older to hold an account",
+                                              style: TextStyle(color: Colors.white)),
+                                          backgroundColor: Colors.red,
+                                          duration: Duration(seconds: 3),
+                                        ));
+                                      }
+                                    }
+
 
                                   },
                                 ),
@@ -238,98 +435,6 @@ class _UserProfileScreenState extends State<UserProfileScreen>{
         }
       ),
     );
-  }
-
-  void _updateUserDetails(TextEditingController controller, String fieldName, {DateTime pickedDate}) {
-    final DocumentReference postRef = Firestore.instance.collection("users").document(widget.docID);
-
-    print("${widget.docID}");
-
-    Firestore.instance.runTransaction((Transaction tx) async {
-      DocumentSnapshot postSnapshot = await tx.get(postRef);
-      String _snackBarText = "";
-
-      if (postSnapshot.exists) {
-        await Future.delayed(Duration(microseconds: 300));
-
-        switch (fieldName) {
-          case "name.title":
-            if (controller.text.isNotEmpty && controller.text.length >= 2) {
-              var _products = postSnapshot.data["name"];
-
-              print(postSnapshot.data["name"]["title"]);
-              _products["name"]["title"] = controller.text;
-
-              print(_products["name"]["title"]);
-
-              await tx.update(postRef, <String, dynamic>{'name': _products});
-
-              _snackBarText = "Details Updated!";
-            } else {
-              _snackBarText = "Must be atleast 2 characters and not empty";
-            }
-            break;
-
-          case "name.first":
-            if (controller.text.isNotEmpty && controller.text.length >= 2) {
-              var _products = postSnapshot.data["name"];
-              _products["name"]["first"] = controller.text;
-              await tx.update(postRef, <String, dynamic>{'name': _products});
-
-              _snackBarText = "Details Updated!";
-            } else {
-              _snackBarText = "Must be atleast 2 characters and not empty";
-            }
-            break;
-          case "name.last":
-            if (controller.text.isNotEmpty && controller.text.length >= 2) {
-
-              var _products = postSnapshot.data["name"];
-              _products["name"]["last"] = controller.text;
-              await tx.update(postRef, <String, dynamic>{'name': _products});
-
-              _snackBarText = "Details Updated!";
-
-            } else {
-              _snackBarText = "Must be atleast 2 characters and not empty";
-            }
-            break;
-          case "cell":
-            if (controller.text.isNotEmpty && controller.text.length == 11 && double.tryParse(controller.text) != null) {
-
-              String tempValue =
-              controller.text.replaceAll("-", "").replaceAll("(", "").replaceAll(")", "");
-
-              await tx.update(postRef, <String, dynamic>{'cell': tempValue});
-              _snackBarText = "Details Updated!";
-            } else {
-              _snackBarText = "Enter a valid phone number";
-            }
-            break;
-          case "dob.date":
-
-            if (pickedDate != null){
-              var _products = postSnapshot.data["dob"];
-              _products["dob"]["date"] = pickedDate.toUtc().toString();
-              _products["dob"]["age"] = DateTime.now().year - int.parse(pickedDate.toUtc().toString().split("-")[0]);
-
-              await tx.update(postRef, <String, dynamic>{'dob': _products});
-              _snackBarText = "Details Updated!";
-            } else {
-              _snackBarText = "Select a valid date!";
-            }
-            break;
-        }
-
-        _scaffoldKey.currentState.showSnackBar(SnackBar(
-          content: Text("Details Updated!"),
-          duration: Duration(seconds: 3),
-        ));
-      }
-
-      print("${controller.text} : $fieldName ");
-
-    }).catchError((onError) => print(onError));
   }
 
   Widget _topHalf(AsyncSnapshot snapshot) {
@@ -370,31 +475,37 @@ class _UserProfileScreenState extends State<UserProfileScreen>{
                         return SizedBox(
                           child: Row(
                             children: <Widget>[
-
                               Padding(
                                 padding: const EdgeInsets.only(right: 40.0),
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment
-                                      .start,
-                                  children: <Widget>[
-                                    Text("${ordersSnapshot.data.documents
-                                        .length}",
-                                      overflow: TextOverflow.ellipsis,
-                                      style: TextStyle(
-                                          fontSize: 35.0,
-                                          fontWeight: FontWeight.bold,
-                                          color: Colors.redAccent
+                                child: InkWell(
+                                  onTap: () => Navigator.push(context,
+                                      MaterialPageRoute(
+                                          builder: (context) => OrdersScreen(
+                                            docID: widget.docID)
+                                      )),
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment
+                                        .start,
+                                    children: <Widget>[
+                                      Text("${ordersSnapshot.data.documents
+                                          .length}",
+                                        overflow: TextOverflow.ellipsis,
+                                        style: TextStyle(
+                                            fontSize: 35.0,
+                                            fontWeight: FontWeight.bold,
+                                            color: Colors.redAccent
+                                        ),
                                       ),
-                                    ),
-                                    Text("Orders",
-                                      overflow: TextOverflow.ellipsis,
-                                      style: TextStyle(
-                                          fontSize: 18.0,
-                                          color: Colors.grey,
-                                          fontWeight: FontWeight.bold
+                                      Text("Orders",
+                                        overflow: TextOverflow.ellipsis,
+                                        style: TextStyle(
+                                            fontSize: 18.0,
+                                            color: Colors.grey,
+                                            fontWeight: FontWeight.bold
+                                        ),
                                       ),
-                                    ),
-                                  ],
+                                    ],
+                                  ),
                                 ),
                               ),
 

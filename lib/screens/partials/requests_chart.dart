@@ -20,6 +20,7 @@ class _RequestsChartState extends State<RequestsChart>{
         builder: (context, snapshot) {
           if (!snapshot.hasData) return const CircularProgressIndicator();
           return Card(
+            elevation: 5.0,
             child: Container(
               width: 250.0,
               child: Column(

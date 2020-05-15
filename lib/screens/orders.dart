@@ -6,9 +6,10 @@ import 'package:onlineshoppingbackendapp/screens/partials/navigation_drawer.dart
 import 'package:onlineshoppingbackendapp/screens/partials/orders_list.dart';
 
 class OrdersScreen extends StatefulWidget {
-  OrdersScreen({Key key, this.currentPage, this.bgColour}) : super(key: key);
+  OrdersScreen({Key key, this.currentPage, this.bgColour, this.docID}) : super(key: key);
 
   final int currentPage;
+  final String docID;
   final Color bgColour;
 
   @override
@@ -29,7 +30,8 @@ class _OrdersScreenState extends State<OrdersScreen> {
         title: "Orders",
       ),
       body: OrderListView(
-        data: Firestore.instance.collection("orders").snapshots(),
+        data: widget.docID == null ? Firestore.instance.collection("orders").snapshots() :
+        Firestore.instance.collection("orders").where("doc id", isEqualTo: widget.docID).snapshots(),
         scrollDirection: Axis.vertical,
         scaffoldKey: _scaffoldKey,
       ),
