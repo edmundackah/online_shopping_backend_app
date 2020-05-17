@@ -10,6 +10,7 @@ import 'package:onlineshoppingbackendapp/screens/partials/navigation_drawer.dart
 import 'package:onlineshoppingbackendapp/screens/partials/requests_chart.dart';
 import 'package:onlineshoppingbackendapp/screens/partials/sales_chart.dart';
 import 'package:onlineshoppingbackendapp/screens/partials/user_growth_chart.dart';
+import 'package:onlineshoppingbackendapp/screens/requests.dart';
 import 'package:onlineshoppingbackendapp/screens/users.dart';
 
 class HomePage extends StatefulWidget {
@@ -179,7 +180,15 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   Widget _cardSelector(int position) {
     switch (position) {
       case 0:
-        return RequestsChart(position: position, appColours: appColours);
+        return InkWell(
+            child: RequestsChart(position: position, appColours: appColours),
+          onDoubleTap: () {
+            Navigator.push(context,
+                MaterialPageRoute(
+                    builder: (context) => RequestsScreen(currentPage: position)
+                ));
+          },
+        );
         break;
       case 1:
         return InkWell(

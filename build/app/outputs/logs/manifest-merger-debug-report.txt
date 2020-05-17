@@ -5,6 +5,7 @@ INJECTED from C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\androi
 INJECTED from C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:1:1-47:12
 INJECTED from C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:1:1-47:12
 MERGED from C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:1:1-47:12
+MERGED from [:flashy_tab_bar] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\flashy_tab_bar\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:cloud_firestore] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:cloud_firestore_web] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore_web\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:firebase_core] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
@@ -130,6 +131,8 @@ uses-sdk
 INJECTED from C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml
+MERGED from [:flashy_tab_bar] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\flashy_tab_bar\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flashy_tab_bar] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\flashy_tab_bar\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore_web] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
