@@ -76,74 +76,90 @@ class _RequestListViewState extends State<RequestListView> {
             shrinkWrap: true,
             itemBuilder: (context, index) {
               return Padding(
-                padding: const EdgeInsets.all(5.0),
-                child: Card(
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: <Widget>[
+                padding: const EdgeInsets.fromLTRB(8.0,4.0,8.0,4.0),
+                child: InkWell(
+                  child: Card(
+                    elevation: 3.0,
+                    child: Padding(
+                      padding: const EdgeInsets.fromLTRB(12.0,5.0,12.0,12.0),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: <Widget>[
 
-                        Row(
-                          children: <Widget>[
-                            SizedBox(
-                              width: MediaQuery.of(context).size.width - 80,
-                                child: Text(
-                                    _title(snapshot.data.documents[index]["request"]),
-                                  style: TextStyle(
-                                      fontWeight: FontWeight.bold,
-                                    fontSize: 17.0,
-                                  ),
-                                )
-                            ),
-                            Padding(
-                              padding: const EdgeInsets.all(8.0),
-                              child: Icon(
-                                  _iconGenerator(snapshot.data.documents[index]["request"]),
-                                  size: 30.0),
-                            )
-                          ],
-                        ),
-
-                        snapshot.data.documents[index]["comment"] == null ? Container() :
-                            Padding(
-                              padding: EdgeInsets.only(bottom: 5.0),
-                              child: SizedBox(
-                                  width: MediaQuery.of(context).size.width - 55,
+                          Row(
+                            children: <Widget>[
+                              SizedBox(
+                                width: MediaQuery.of(context).size.width - 85,
                                   child: Text(
-                                      snapshot.data.documents[index]["comment"],
-                                    maxLines: 4,
-                                    textAlign: TextAlign.justify,
-                                    overflow: TextOverflow.fade,
-                                    style: TextStyle(fontSize: 14.5),
+                                      _title(snapshot.data.documents[index]["request"]),
+                                    style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                      fontSize: 17.0,
+                                      color: Color.fromRGBO(231, 129, 109, 1.0)
+                                    ),
                                   )
                               ),
-                            ),
 
-                        Padding(
-                          padding: EdgeInsets.only(top: 8.0),
-                          child: Row(
-                            children: <Widget>[
-
-                              //padding
-                              SizedBox(width: MediaQuery.of(context).size.width - 125),
-
-                              Padding(
-                                padding: EdgeInsets.only(right: 5.0),
-                                child: Icon(Icons.date_range, size: 30.0),
-                              ),
-
-                              Text(
-                                _dateBuilder(snapshot.data.documents[index]["date"]),
-                                style: TextStyle(fontSize: 15.5),
+                              Icon(
+                                _iconGenerator(snapshot.data.documents[index]["request"]),
+                                size: 30.0,
+                                color: Color.fromRGBO(231, 129, 109, 1.0)
                               )
                             ],
                           ),
-                        )
 
-                      ],
+                          snapshot.data.documents[index]["comment"] == null ? Container() :
+                              Padding(
+                                padding: EdgeInsets.only(bottom: 8.0, top: 8.0),
+                                child: SizedBox(
+                                    width: MediaQuery.of(context).size.width - 55,
+                                    child: Text(
+                                        snapshot.data.documents[index]["comment"],
+                                      maxLines: 4,
+                                      textAlign: TextAlign.justify,
+                                      overflow: TextOverflow.fade,
+                                      style: TextStyle(fontSize: 14.5),
+                                    )
+                                ),
+                              ),
+
+                          Padding(
+                            padding: EdgeInsets.only(top: 8.0),
+                            child: Row(
+                              children: <Widget>[
+
+                                //padding
+                                SizedBox(width: MediaQuery.of(context).size.width - 140),
+
+                                Padding(
+                                  padding: EdgeInsets.only(right: 5.0),
+                                  child: Icon(Icons.date_range,
+                                    size: 30.0,
+                                    color: Color.fromRGBO(231, 129, 109, 1.0),
+                                  ),
+                                ),
+
+                                Text(
+                                  _dateBuilder(snapshot.data.documents[index]["date"]),
+                                  style: TextStyle(fontSize: 15.5, color: Color.fromRGBO(231, 129, 109, 1.0)),
+                                )
+                              ],
+                            ),
+                          )
+
+                        ],
+                      ),
                     ),
                   ),
+                  splashColor: Color.fromRGBO(231, 129, 109, 1.0),
+                  onTap: () {
+                    var bottomSheetController = showBottomSheet(
+                        context: context,
+                        builder: (context) => Container(
+                          margin: const EdgeInsets.only(top: 5, left: 15, right: 15),
+                          height: 160,
+                    ));
+                  },
                 ),
               );
             }
@@ -165,5 +181,4 @@ class _RequestListViewState extends State<RequestListView> {
     ];
     return "${date.substring(8, 10)} ${months[monthNum - 1]}";
   }
-
 }

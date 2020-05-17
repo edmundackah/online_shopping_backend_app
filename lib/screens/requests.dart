@@ -51,26 +51,50 @@ class _RequestsScreenState extends State<RequestsScreen> {
               }),
               items: [
                 FlashyTabBarItem(
-                  icon: Icon(Icons.view_list),
-                  title: Text('All Requests', style: TextStyle(fontSize: 14.0)),
+                  icon: Icon(Icons.view_list,
+                    color: Color.fromRGBO(231, 129, 109, 1.0)
+                  ),
+                  title: Text('All Requests',
+                      style: TextStyle(
+                          fontSize: 14.0,
+                          color: Color.fromRGBO(231, 129, 109, 1.0)
+                      )),
                 ),
                 FlashyTabBarItem(
-                  icon: Icon(Icons.monetization_on),
-                  title: Text('Refund Request'),
+                  icon: Icon(Icons.monetization_on,
+                      color: Color.fromRGBO(231, 129, 109, 1.0)
+                  ),
+                  title: Text('Refund Request',
+                      style: TextStyle(
+                          fontSize: 14.0,
+                          color: Color.fromRGBO(231, 129, 109, 1.0)
+                      )),
                 ),
                 FlashyTabBarItem(
-                  icon: Icon(Icons.remove_shopping_cart),
-                  title: Text('Cancel Order'),
+                  icon: Icon(Icons.remove_shopping_cart,
+                      color: Color.fromRGBO(231, 129, 109, 1.0)
+                  ),
+                  title: Text('Cancel Order',
+                      style: TextStyle(
+                          fontSize: 14.0,
+                          color: Color.fromRGBO(231, 129, 109, 1.0)
+                      )),
                 ),
                 FlashyTabBarItem(
-                  icon: Icon(Icons.edit),
-                  title: Text('Change Order'),
+                  icon: Icon(Icons.edit,
+                      color: Color.fromRGBO(231, 129, 109, 1.0)
+                  ),
+                  title: Text('Change Order',
+                      style: TextStyle(
+                          fontSize: 14.0,
+                          color: Color.fromRGBO(231, 129, 109, 1.0)
+                      )),
                 ),
               ],
             ),
           ),
         ),
-        drawer: NavDrawer(currentPage: widget.currentPage),
+        drawer: NavDrawer(currentPage: 1),
         body: TabBarView(
             children: [
               RequestListView(currentPage: 0,),
