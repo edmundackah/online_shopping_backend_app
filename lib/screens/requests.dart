@@ -15,20 +15,45 @@ class RequestsScreen extends StatefulWidget {
   _RequestsScreenState createState() => _RequestsScreenState();
 }
 
-class _RequestsScreenState extends State<RequestsScreen> {
+class _RequestsScreenState extends State<RequestsScreen> with TickerProviderStateMixin {
 
   final PageStorageBucket bucket = PageStorageBucket();
 
+  GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey();
+  TabController _tabController;
+
   int _selectedIndex = 0;
 
-  final List<Widget> _tabContent = [
-  ];
+  @override
+  void initState() {
+    _tabController = new TabController(
+        length: 4,
+        vsync: this,
+        initialIndex: _selectedIndex
+    );
+
+    _tabController.addListener(() {
+
+      setState(() {
+        _selectedIndex = _tabController.index;
+
+        _tabController.animateTo(
+            _tabController.index,
+            duration: Duration(milliseconds: 300)
+        );
+      });
+
+
+    });
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 4,
       child: Scaffold(
+        key: _scaffoldKey,
         appBar: AppBar(
           title: new Text("Customer Queries", style: TextStyle(fontSize: 19.0),),
           backgroundColor: Colors.white,
@@ -46,9 +71,17 @@ class _RequestsScreenState extends State<RequestsScreen> {
               selectedIndex: _selectedIndex,
               iconSize: 20.0,
               showElevation: false,
-              onItemSelected: (index) => setState(() {
-                _selectedIndex = index;
-              }),
+              onItemSelected: (index) {
+
+                setState(() {
+                  _selectedIndex = index;
+
+                  _tabController.animateTo(
+                      _selectedIndex,
+                      duration: Duration(milliseconds: 400)
+                  );
+                });
+              },
               items: [
                 FlashyTabBarItem(
                   icon: Icon(Icons.view_list,
@@ -96,15 +129,22 @@ class _RequestsScreenState extends State<RequestsScreen> {
         ),
         drawer: NavDrawer(currentPage: 1),
         body: TabBarView(
+          controller: _tabController,
             children: [
-              RequestListView(currentPage: 0,),
-              Card(color: Colors.blue,),
-              Card(color: Colors.green,),
-              Card()
+              RequestListView(currentPage: 0, scaffoldKey: _scaffoldKey),
+              RequestListView(currentPage: 1, scaffoldKey: _scaffoldKey),
+              RequestListView(currentPage: 2, scaffoldKey: _scaffoldKey),
+              RequestListView(currentPage: 3, scaffoldKey: _scaffoldKey)
             ],
         ),
       ),
     );
+  }
+
+  @override
+  void dispose() {
+    _tabController.dispose();
+    super.dispose();
   }
 
 }

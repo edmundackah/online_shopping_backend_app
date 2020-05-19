@@ -129,31 +129,39 @@
 86        </service>
 87
 88        <activity
-88-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\b346347578bb8fc77a13c257fc80238e\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-89            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-89-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\b346347578bb8fc77a13c257fc80238e\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+88-->[:url_launcher] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+89            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+89-->[:url_launcher] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
 90            android:exported="false"
-90-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\b346347578bb8fc77a13c257fc80238e\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-91-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\b346347578bb8fc77a13c257fc80238e\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-92
-93        <provider
-93-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\87d610133b8b52ad116c726424017ad2\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
-94            android:name="com.google.firebase.provider.FirebaseInitProvider"
-94-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\87d610133b8b52ad116c726424017ad2\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
-95            android:authorities="com.papaya.onlineshoppingbackendapp.firebaseinitprovider"
-95-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\87d610133b8b52ad116c726424017ad2\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
-96            android:exported="false"
-96-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\87d610133b8b52ad116c726424017ad2\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
-97            android:initOrder="100" />
-97-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\87d610133b8b52ad116c726424017ad2\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
-98
-99        <meta-data
-99-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\3b9678029632a8bd70da4e4034bdbe61\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-100            android:name="com.google.android.gms.version"
-100-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\3b9678029632a8bd70da4e4034bdbe61\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-101            android:value="@integer/google_play_services_version" />
-101-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\3b9678029632a8bd70da4e4034bdbe61\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-102    </application>
-103
-104</manifest>
+90-->[:url_launcher] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+91            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+91-->[:url_launcher] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+92        <activity
+92-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\b346347578bb8fc77a13c257fc80238e\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+93            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+93-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\b346347578bb8fc77a13c257fc80238e\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+94            android:exported="false"
+94-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\b346347578bb8fc77a13c257fc80238e\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+95            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+95-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\b346347578bb8fc77a13c257fc80238e\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+96
+97        <provider
+97-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\87d610133b8b52ad116c726424017ad2\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+98            android:name="com.google.firebase.provider.FirebaseInitProvider"
+98-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\87d610133b8b52ad116c726424017ad2\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+99            android:authorities="com.papaya.onlineshoppingbackendapp.firebaseinitprovider"
+99-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\87d610133b8b52ad116c726424017ad2\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+100            android:exported="false"
+100-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\87d610133b8b52ad116c726424017ad2\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+101            android:initOrder="100" />
+101-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\87d610133b8b52ad116c726424017ad2\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+102
+103        <meta-data
+103-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\3b9678029632a8bd70da4e4034bdbe61\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+104            android:name="com.google.android.gms.version"
+104-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\3b9678029632a8bd70da4e4034bdbe61\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+105            android:value="@integer/google_play_services_version" />
+105-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\3b9678029632a8bd70da4e4034bdbe61\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+106    </application>
+107
+108</manifest>
