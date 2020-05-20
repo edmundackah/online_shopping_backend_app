@@ -6,7 +6,7 @@ import 'package:flutter_advanced_networkimage/provider.dart';
 
 class RequestOrderCard extends StatefulWidget {
   RequestOrderCard({Key key, @required this.index, @required this.snapshot,
-    @required this.scaffoldKey, @required this.cardNumber,
+    @required this.scaffoldKey, @required this.cardNumber, this.requestDocRef,
     @required this.scrollDirection, this.elevation}) : super();
 
   final int index;
@@ -14,6 +14,7 @@ class RequestOrderCard extends StatefulWidget {
   final AsyncSnapshot snapshot;
   final String cardNumber;
   final Axis scrollDirection;
+  final DocumentReference requestDocRef;
   final GlobalKey<ScaffoldState> scaffoldKey;
 
   @override
@@ -97,10 +98,18 @@ class _RequestOrderCardState extends State<RequestOrderCard> {
                           content: Text("Order refunded"),
                           elevation: 4.0,
                           duration: Duration(seconds: 2),
+                          backgroundColor: Colors.lightGreen,
                         );
                         widget.scaffoldKey.currentState.showSnackBar(snackBar);
-
                       });
+
+
+                      if (widget.requestDocRef != null) {
+                        await Firestore.instance.runTransaction((
+                            transaction) async {
+                          await transaction.delete(widget.requestDocRef);
+                        });
+                      }
                     },
                     icon: Icon(Icons.refresh, color: Colors.green,),
                     color: Colors.white,
@@ -242,8 +251,6 @@ class _RequestOrderCardState extends State<RequestOrderCard> {
   }
 
   void _removeItem(String docID, int index) {
-
-    print("doc: $docID    $index");
     //remove item from order
     final DocumentReference postRef = Firestore.instance.collection("orders").document(docID);
 
@@ -252,11 +259,7 @@ class _RequestOrderCardState extends State<RequestOrderCard> {
       if (postSnapshot.exists) {
 
         var _products = postSnapshot.data["products"];
-
-        print("before: ${_products.length}");
-        print(_products[index]["name"]);
         _products.removeWhere((item) => item["name"] == _products[index]["name"]);
-        print("after: ${_products.length}");
 
         await tx.update(postRef, <String, dynamic>{'products': _products});
 

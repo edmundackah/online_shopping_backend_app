@@ -179,7 +179,7 @@ class _UsersScreenState extends State<UsersScreen>{
           }
         ),
       ),
-      drawer: NavDrawer(),
+      drawer: NavDrawer(currentPage: widget.position),
     );
   }
 

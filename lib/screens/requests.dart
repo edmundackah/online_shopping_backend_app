@@ -17,8 +17,6 @@ class RequestsScreen extends StatefulWidget {
 
 class _RequestsScreenState extends State<RequestsScreen> with TickerProviderStateMixin {
 
-  final PageStorageBucket bucket = PageStorageBucket();
-
   GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey();
   TabController _tabController;
 

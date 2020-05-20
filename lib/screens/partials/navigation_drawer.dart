@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:onlineshoppingbackendapp/logic/firebase_manager.dart';
 import 'package:onlineshoppingbackendapp/screens/homepage.dart';
 import 'package:onlineshoppingbackendapp/screens/orders.dart';
+import 'package:onlineshoppingbackendapp/screens/requests.dart';
 import 'package:onlineshoppingbackendapp/screens/user_profile.dart';
 import 'package:onlineshoppingbackendapp/screens/users.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -169,6 +170,14 @@ class _NavDrawerState extends State<NavDrawer> {
                             )
                         ));
                     break;
+
+                  case 1:
+                    Navigator.push(context,
+                        MaterialPageRoute(
+                            builder: (context) => RequestsScreen(currentPage: index)
+                        ));
+                    break;
+
                   case 2:
                     Navigator.push(context,
                         MaterialPageRoute(

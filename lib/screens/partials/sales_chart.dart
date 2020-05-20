@@ -244,6 +244,8 @@ class _SalesChartState extends State<SalesChart>{
 
     String dateComponent = now.toString().split(" ")[0];
 
+    print(dateComponent);
+
     snapshot.data.documents.forEach((doc){
       if (doc["date"].contains(dateComponent)) {
         salesCount ++;

@@ -69,13 +69,12 @@ class _RequestListViewState extends State<RequestListView> {
     }
   }
 
-
   @override
   Widget build(BuildContext context) {
     return StreamBuilder(
       stream: _dataStream[widget.currentPage],
       builder: (index, snapshot) {
-        if (!snapshot.hasData) return CircularProgressIndicator();
+        if (!snapshot.hasData) return Center(child: CircularProgressIndicator());
         return ListView.builder(
             itemCount: snapshot.data.documents.length,
             shrinkWrap: true,
@@ -85,6 +84,8 @@ class _RequestListViewState extends State<RequestListView> {
                 key: Key(snapshot.data.documents[index].toString()),
                 actionExtentRatio: 0.25,
                 actionPane: SlidableStrechActionPane(),
+                closeOnScroll: true,
+                controller: SlidableController(),
 
                 child: Padding(
                   padding: const EdgeInsets.fromLTRB(8.0,4.0,8.0,4.0),
@@ -165,13 +166,24 @@ class _RequestListViewState extends State<RequestListView> {
                     splashColor: Color.fromRGBO(231, 129, 109, 1.0),
                     onTap: () {
 
-                      showMaterialModalBottomSheet(
-                          context: context,
+                      if (snapshot.data.documents.length > 2) {
+                        showMaterialModalBottomSheet(
+                            context: context,
+                            elevation: 5.0,
+                            isDismissible: true,
+                            builder: (context, scrollController) =>
+                                _bottomSheet(snapshot, index)
+                        );
+
+                      } else {
+                        final snackBar = SnackBar(
+                            content: Text("Can't find corresponding order"),
                           elevation: 5.0,
-                          isDismissible: true,
-                          builder: (context, scrollController)
-                          => _bottomSheet(snapshot, index)
-                      );
+                          duration: Duration(seconds: 2),
+                          backgroundColor: Colors.redAccent,
+                        );
+                        widget.scaffoldKey.currentState.showSnackBar(snackBar);
+                      }
 
                     },
                   ),
@@ -180,21 +192,25 @@ class _RequestListViewState extends State<RequestListView> {
                 secondaryActions: <Widget>[
                   InkWell(
                     onTap: () async {
-
-
-                      print(snapshot.data.documents[index]["docID"]);
-
-
-                      DocumentSnapshot userDoc = await Firestore.instance.collection("users")
+                      var orderDoc = await Firestore.instance.collection("orders")
                           .document(snapshot.data.documents[index]["docID"]).get();
 
-                      String url = "mailto:<rwnykh.mrdy@example.com>?"
-                          "subject=<Order Enquiry>&body=<body>";
+                      var userDoc = await Firestore.instance.collection("users")
+                          .document(orderDoc["doc id"]).get();
+
+                      String url = "mailto:<${userDoc["email"]}>?"
+                          "subject=<Order ${orderDoc["orderNo"]}>&body=<body>";
 
                       if (await canLaunch(url)) {
                         await launch(url);
                       } else {
-                        throw 'Could not launch $url';
+                        //throw 'Could not launch $url';
+                        final snackBar = SnackBar(
+                          content: Text("E-mail app not found on device"),
+                          duration: Duration(seconds: 3),
+                          backgroundColor: Colors.redAccent,
+                        );
+                        widget.scaffoldKey.currentState.showSnackBar(snackBar);
                       }
                     },
                     child: Container(
@@ -209,16 +225,34 @@ class _RequestListViewState extends State<RequestListView> {
                       ),
                     ),
                   ),
-                  Container(
-                    color: Colors.green,
-                    padding: EdgeInsets.symmetric(horizontal: 20),
-                    alignment: AlignmentDirectional.centerEnd,
-                    child: Icon(
-                      Icons.assignment_turned_in,
-                      color: Colors.white,
-                      size: 45.0,
-                      semanticLabel: "Complete",
+                  InkWell(
+                    onTap: () async {
+                      await Firestore.instance.runTransaction((Transaction myTransaction) async {
+                        await myTransaction.delete(snapshot.data.documents[index].reference);
+
+                        final snackBar = SnackBar(
+                          content: Text("Request Closed"),
+                          elevation: 4.0,
+                          duration: Duration(seconds: 2),
+                          backgroundColor: Colors.green,
+                        );
+                        widget.scaffoldKey.currentState.showSnackBar(snackBar);
+
+                      });
+                    },
+
+                    child: Container(
+                      color: Colors.green,
+                      padding: EdgeInsets.symmetric(horizontal: 20),
+                      alignment: AlignmentDirectional.centerEnd,
+                      child: Icon(
+                        Icons.assignment_turned_in,
+                        color: Colors.white,
+                        size: 45.0,
+                        semanticLabel: "Complete",
+                      ),
                     ),
+
                   ),
                 ],
 
@@ -236,15 +270,17 @@ class _RequestListViewState extends State<RequestListView> {
 
     return StreamBuilder(
         stream: Firestore.instance.collection("orders")
-            .where("orderNo", isEqualTo: orderID).snapshots(),
+            .where("orderNo", isEqualTo: orderID).limit(1).snapshots(),
 
         builder: (BuildContext context, AsyncSnapshot snapshot){
           if (!snapshot.hasData) return CircularProgressIndicator();
+
           return Container(
             height: MediaQuery.of(context).size.height * 0.55,
             child: RequestOrderCard(
               snapshot: snapshot,
               index: 0,
+              requestDocRef: snapshot.data.documents[0].reference,
               elevation: 0.0,
               cardNumber: snapshot.data.documents[0]["payment info"]["card number"].
               toString().replaceAll(".0", ""),
