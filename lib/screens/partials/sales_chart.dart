@@ -210,19 +210,19 @@ class _SalesChartState extends State<SalesChart>{
       List.generate(7, (i) {
         switch (i) {
           case 0:
-            return makeGroupData(snapshot, 0, _getDailySaleCount(0, snapshot), isTouched: i == touchedIndex);
+            return makeGroupData(snapshot, 0, _getDailySaleCount(1, snapshot), isTouched: i == touchedIndex);
           case 1:
-            return makeGroupData(snapshot, 1, _getDailySaleCount(1, snapshot), isTouched: i == touchedIndex);
+            return makeGroupData(snapshot, 1, _getDailySaleCount(2, snapshot), isTouched: i == touchedIndex);
           case 2:
-            return makeGroupData(snapshot, 2, _getDailySaleCount(2, snapshot), isTouched: i == touchedIndex);
+            return makeGroupData(snapshot, 2, _getDailySaleCount(3, snapshot), isTouched: i == touchedIndex);
           case 3:
-            return makeGroupData(snapshot, 3, _getDailySaleCount(3, snapshot), isTouched: i == touchedIndex);
+            return makeGroupData(snapshot, 3, _getDailySaleCount(4, snapshot), isTouched: i == touchedIndex);
           case 4:
-            return makeGroupData(snapshot, 4, _getDailySaleCount(4, snapshot), isTouched: i == touchedIndex);
+            return makeGroupData(snapshot, 4, _getDailySaleCount(5, snapshot), isTouched: i == touchedIndex);
           case 5:
-            return makeGroupData(snapshot, 5, _getDailySaleCount(5, snapshot), isTouched: i == touchedIndex);
+            return makeGroupData(snapshot, 5, _getDailySaleCount(6, snapshot), isTouched: i == touchedIndex);
           case 6:
-            return makeGroupData(snapshot, 6, _getDailySaleCount(6, snapshot), isTouched: i == touchedIndex);
+            return makeGroupData(snapshot, 6, _getDailySaleCount(7, snapshot), isTouched: i == touchedIndex);
           default:
             return null;
         }
@@ -230,19 +230,28 @@ class _SalesChartState extends State<SalesChart>{
 
   double _getDailySaleCount(int day, AsyncSnapshot snapshot) {
     //get all the dates for the current week
-    int weekday = day + 1;
+    DateTime today = DateTime.now();
 
     double salesCount = 0;
-    DateTime now = DateTime.now().subtract(Duration(days: 7));
+    int counter = 1;
 
-    while (now.weekday != weekday) {
-      now = now.subtract(Duration(days: 1));
+    DateTime saleDay;
+
+    if (today.weekday != DateTime.monday){
+      while (today.subtract(Duration(days:counter)).weekday != DateTime.monday){
+        counter ++;
+      }
     }
 
-    int multiplier = weekday == 1 ? 1 : 2;
-    now = now.add(Duration(days: 7 * multiplier));
+    if (day != 1) {
+      saleDay = today.subtract(
+          Duration(days: counter)).add(Duration(days: day));
+    } else {
+      saleDay = today.subtract(Duration(days: counter));
+    }
 
-    String dateComponent = now.toString().split(" ")[0];
+
+    String dateComponent = saleDay.toString().split(" ")[0];
 
     print(dateComponent);
 

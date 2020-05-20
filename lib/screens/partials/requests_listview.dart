@@ -166,7 +166,7 @@ class _RequestListViewState extends State<RequestListView> {
                     splashColor: Color.fromRGBO(231, 129, 109, 1.0),
                     onTap: () {
 
-                      if (snapshot.data.documents.length > 2) {
+                      if (snapshot.data.documents.length > 0) {
                         showMaterialModalBottomSheet(
                             context: context,
                             elevation: 5.0,
