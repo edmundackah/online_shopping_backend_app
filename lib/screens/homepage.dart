@@ -63,7 +63,12 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
               .limit(1)
               .snapshots(),
           builder: (context, snapshot) {
-            if (!snapshot.hasData) return Center(child: CircularProgressIndicator());
+            if (!snapshot.hasData) return Center(
+                child: SizedBox(
+                    height: 30.0,
+                    width: 30.0,
+                    child: CircularProgressIndicator()
+                ));
             return _homepageBody(snapshot.data.documents[0]);
           }
       ),

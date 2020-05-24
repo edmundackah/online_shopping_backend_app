@@ -6,15 +6,18 @@ INJECTED from C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\androi
 INJECTED from C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:1:1-47:12
 MERGED from C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:1:1-47:12
 MERGED from [:flashy_tab_bar] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\flashy_tab_bar\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:video_player] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\video_player\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:cloud_firestore] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:cloud_firestore_web] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore_web\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:firebase_core] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core_web] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\firebase_core_web\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:path_provider] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:path_provider_macos] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\path_provider_macos\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:url_launcher] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-14:12
+MERGED from [:wakelock] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\wakelock\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:shared_preferences] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:shared_preferences_web] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\shared_preferences_web\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-14:12
 MERGED from [:shared_preferences_macos] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\shared_preferences_macos\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:url_launcher_macos] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\url_launcher_macos\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:url_launcher_web] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\url_launcher_web\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
@@ -34,6 +37,10 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Quest\.gradle\
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\b2133032cf21ebfe67da1b19cf0d87ce\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\8b2071ec2785aa77527b0eed5e8cc0d7\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\e9291f6f192668bbde1f8ec204e5579b\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.6] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\b5fa9808878af6aac0ab2d7ff76ccfeb\jetified-exoplayer-hls-2.9.6\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.6] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\04ac81c51bf05ae4b4badd98e54114fd\jetified-exoplayer-dash-2.9.6\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.6] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\63549f0059d37a6db69fdc7571e95af7\jetified-exoplayer-smoothstreaming-2.9.6\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\346b4238bca78b545cb788d06e0c50a5\jetified-exoplayer-core-2.9.6\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\74cd4ac260f894664d75a2ca2bb6bb87\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\0cb344f83f822523cccd3d991f0b64b6\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
 MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\48f58b52d265ac72fc9ffacab6722bee\jetified-firebase-components-16.0.0\AndroidManifest.xml:15:1-23:12
@@ -138,6 +145,8 @@ INJECTED from C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\androi
 INJECTED from C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml
 MERGED from [:flashy_tab_bar] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\flashy_tab_bar\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:flashy_tab_bar] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\flashy_tab_bar\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:video_player] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\video_player\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:video_player] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\video_player\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore_web] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
@@ -146,16 +155,20 @@ MERGED from [:firebase_core] C:\Users\Quest\Documents\GitHub\online_shopping_bac
 MERGED from [:firebase_core] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core_web] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\firebase_core_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core_web] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\firebase_core_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider_macos] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\path_provider_macos\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider_macos] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\path_provider_macos\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:url_launcher] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:url_launcher] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:wakelock] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\wakelock\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:wakelock] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\wakelock\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences_web] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\shared_preferences_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences_web] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\shared_preferences_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences_macos] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\shared_preferences_macos\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences_macos] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\shared_preferences_macos\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher_macos] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\url_launcher_macos\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
@@ -194,6 +207,14 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Quest\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\8b2071ec2785aa77527b0eed5e8cc0d7\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\e9291f6f192668bbde1f8ec204e5579b\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\e9291f6f192668bbde1f8ec204e5579b\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.6] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\b5fa9808878af6aac0ab2d7ff76ccfeb\jetified-exoplayer-hls-2.9.6\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.6] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\b5fa9808878af6aac0ab2d7ff76ccfeb\jetified-exoplayer-hls-2.9.6\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.6] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\04ac81c51bf05ae4b4badd98e54114fd\jetified-exoplayer-dash-2.9.6\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.6] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\04ac81c51bf05ae4b4badd98e54114fd\jetified-exoplayer-dash-2.9.6\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.6] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\63549f0059d37a6db69fdc7571e95af7\jetified-exoplayer-smoothstreaming-2.9.6\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.6] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\63549f0059d37a6db69fdc7571e95af7\jetified-exoplayer-smoothstreaming-2.9.6\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\346b4238bca78b545cb788d06e0c50a5\jetified-exoplayer-core-2.9.6\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\346b4238bca78b545cb788d06e0c50a5\jetified-exoplayer-core-2.9.6\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\74cd4ac260f894664d75a2ca2bb6bb87\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\74cd4ac260f894664d75a2ca2bb6bb87\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\0cb344f83f822523cccd3d991f0b64b6\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -260,6 +281,8 @@ ADDED from [:url_launcher] C:\Users\Quest\Documents\GitHub\online_shopping_backe
 		ADDED from [:url_launcher] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\fe249aed8cd00b60b203181b13870196\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\346b4238bca78b545cb788d06e0c50a5\jetified-exoplayer-core-2.9.6\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\346b4238bca78b545cb788d06e0c50a5\jetified-exoplayer-core-2.9.6\AndroidManifest.xml:24:5-79
 MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\d7395e3189a078a7f6788060690a7c6e\jetified-grpc-android-1.21.0\AndroidManifest.xml:11:5-79
 MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\d7395e3189a078a7f6788060690a7c6e\jetified-grpc-android-1.21.0\AndroidManifest.xml:11:5-79
 	android:name

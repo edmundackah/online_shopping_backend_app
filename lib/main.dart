@@ -182,6 +182,13 @@ class _LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
                           password: passwordController.text)
               )
           );
+        } else {
+          final snackBar = SnackBar(
+            content: Text("Check Login Credentials"),
+            duration: Duration(seconds: 3),
+            backgroundColor: Colors.redAccent,
+          );
+          Scaffold.of(context).showSnackBar(snackBar);
         }
       },
     );

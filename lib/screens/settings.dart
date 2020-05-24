@@ -55,14 +55,68 @@ class _settingsScreenState extends State<SettingsScreen> {
                     onToggle: (bool value) async {
                       updateSettings("chatbot", value);
                     },
+                  ),
+
+                  SettingsTile(
+                    title: 'Server Address',
+                    subtitle: "Tap to change server endpoint",
+                    leading: Icon(Icons.computer),
+                    onTap: () {
+                      TextEditingController _textController = TextEditingController();
+                      _textController.text = snapshot.data["server_endpoint"];
+
+                      showDialog(
+                          barrierDismissible: true,
+                          context: context,
+                          builder: (_) => AlertDialog(
+                            title: Text("AI Server Address"),
+                            content: TextField(controller: _textController),
+                            actions: <Widget>[
+                              FlatButton(
+                                child: Text("Update"),
+                                color: Colors.green,
+                                onPressed: () async {
+                                  final DocumentReference postRef = snapshot.data.reference;
+
+                                  await Firestore.instance.runTransaction((Transaction tx) async {
+                                    DocumentSnapshot postSnapshot = await tx.get(postRef);
+                                    if (postSnapshot.exists) {
+                                      await tx.update(postRef, <String, dynamic>{'server_endpoint': _textController.text});
+                                    }
+                                  }).whenComplete(() {
+
+                                    Navigator.pop(context);
+
+                                    final snackBar = SnackBar(
+                                      content: Text("Server endpoint updated"),
+                                      duration: Duration(seconds: 2),
+                                      backgroundColor: Colors.lightGreen,
+                                    );
+                                    Scaffold.of(context).showSnackBar(snackBar);
+
+                                  }).catchError((onError){
+                                    final snackBar = SnackBar(
+                                      content: Text("Failed to update server endpoint"),
+                                      duration: Duration(seconds: 3),
+                                      backgroundColor: Colors.redAccent,
+                                    );
+                                   Scaffold.of(context).showSnackBar(snackBar);
+                                  });
+                                },
+                              ),
+                            ],
+                          )
+                      );
+                    },
                   )
+
                 ],
               ),
             ],
           );
         }
       ),
-      drawer: NavDrawer(currentPage: widget.position,),
+      drawer: NavDrawer(currentPage: widget.position),
     );
   }
 

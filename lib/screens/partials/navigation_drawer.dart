@@ -4,6 +4,7 @@ import 'package:onlineshoppingbackendapp/logic/firebase_manager.dart';
 import 'package:onlineshoppingbackendapp/screens/homepage.dart';
 import 'package:onlineshoppingbackendapp/screens/orders.dart';
 import 'package:onlineshoppingbackendapp/screens/requests.dart';
+import 'package:onlineshoppingbackendapp/screens/sentiment.dart';
 import 'package:onlineshoppingbackendapp/screens/settings.dart';
 import 'package:onlineshoppingbackendapp/screens/user_profile.dart';
 import 'package:onlineshoppingbackendapp/screens/users.dart';
@@ -189,6 +190,12 @@ class _NavDrawerState extends State<NavDrawer> {
                     Navigator.push(context,
                         MaterialPageRoute(
                             builder: (context) => UsersScreen(position: index)
+                        ));
+                    break;
+                  case 4:
+                    Navigator.push(context,
+                        MaterialPageRoute(
+                            builder: (context) => SentimentScreen(position: index)
                         ));
                     break;
                   case 6:
