@@ -15,18 +15,16 @@ class FirestoreManager {
   //scraping the Zalando API for products
   Future<List<DocumentSnapshot>> productSearch(String query) async {
 
-    print("searching for: $query");
+    print("searching for: --$query--");
 
-    await for (
-    var docs in Firestore.instance.collection("products")
-        .where("chatbot keyword", isEqualTo: query).limit(81).snapshots()){
+    QuerySnapshot docs = await Firestore.instance.collection("products")
+        .where("chatbot keyword", isEqualTo: query).getDocuments();
 
-      print(docs.documents[0]["name"]);
+    print(docs.documents[0]["name"]);
 
-      print("found: ${docs.documents.length}");
+    print("found: ${docs.documents.length}");
 
-      return docs.documents;
-    }
+    return docs.documents;
   }
 
   Future<bool> modifyOrder(String reason, String orderNumber, [String comment]) async {

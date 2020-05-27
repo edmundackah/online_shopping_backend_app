@@ -1,6 +1,9 @@
 import 'dart:async';
+import 'dart:convert';
+import 'dart:io';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:image_picker/image_picker.dart';
 import 'package:onlineshoppingbackendapp/screens/partials/navigation_drawer.dart';
 
 import 'brain.dart';
@@ -36,6 +39,8 @@ class _ChatScreenState extends State<ChatScreen> {
   ScrollController _scrollController = ScrollController();
 
   List<DocumentSnapshot> _productSearch;
+
+  File _image;
 
   List<DocumentSnapshot> _cart = [];
   List<Map> _giftCart = [];
@@ -356,6 +361,13 @@ class _ChatScreenState extends State<ChatScreen> {
     }
   }
 
+  Future getImage() async {
+    var image = await ImagePicker.pickImage(source: ImageSource.gallery);
+
+    String img64 = base64Encode(_image.readAsBytesSync());
+    
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -394,19 +406,46 @@ class _ChatScreenState extends State<ChatScreen> {
           ],
         ),
       ),
-      body: Container(
-        child: ListView.builder(
-          itemCount: chatLog.length,
-          padding: const EdgeInsets.all(15),
-          shrinkWrap: true,
-          controller: _scrollController,
-          itemBuilder: (BuildContext context, int index) {
-            return chatLog[index];
-          },
-        ),
+      body: StreamBuilder(
+        stream: Firestore.instance.collection("user_settings")
+            .document("qmHWLXV17pvLEWclXcKc").snapshots(),
+        builder: (context, snapshot) {
+          if (!snapshot.hasData) return Center(child: CircularProgressIndicator());
+          return snapshot.data["chatbot"] == false ? Container(
+            child: Center(
+              child: Text("Chatbot disabled, reactivate from the settings")),
+          ):
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              Expanded(
+                child: ListView.builder(
+                  itemCount: chatLog.length,
+                  padding: const EdgeInsets.all(15),
+                  shrinkWrap: true,
+                  controller: _scrollController,
+                  itemBuilder: (BuildContext context, int index) {
+                    return chatLog[index];
+                  },
+                ),
+              ),
+
+              Positioned(
+                bottom: MediaQuery.of(context).viewInsets.bottom,
+                left: 0,
+                right: 0,
+                height: 170,
+                child: Padding(
+                  padding: const EdgeInsets.fromLTRB(8.0,0.0,8.0,15.0),
+                  child: _textFieldWidget(),
+                ),
+              )
+
+            ],
+          );
+        }
       ),
       drawer:   NavDrawer(currentPage: widget.position),
-      bottomNavigationBar: _textFieldWidget(),
     );
   }
 
@@ -418,8 +457,6 @@ class _ChatScreenState extends State<ChatScreen> {
 
   Widget _textFieldWidget() {
     return Container(
-      margin: EdgeInsets.all(15.0),
-      height: 61,
       child: Row(
         children: <Widget>[
           Expanded(
@@ -440,11 +477,10 @@ class _ChatScreenState extends State<ChatScreen> {
                       color: Colors.grey,
                     ),
                     onTap: () async {
-                      /*
                       final String _endpoint = await _inputDialog(context);
 
                       if (_endpoint != null) {
-                        await _pickImage(_endpoint);
+                        await getImage();
                       } else {
                         _globalKey.currentState.showSnackBar(
                             SnackBar(
@@ -454,8 +490,6 @@ class _ChatScreenState extends State<ChatScreen> {
                             )
                         );
                       }
-
-                       */
                     }
 
                   ),
