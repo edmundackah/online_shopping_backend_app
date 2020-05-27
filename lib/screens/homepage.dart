@@ -77,11 +77,10 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   }
 
   Widget _homepageBody(DocumentSnapshot doc) {
-    return Center(
+    return Container(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          Row(),
           Padding(
             padding: const EdgeInsets.symmetric(
                 horizontal: 48.0, vertical: 56.0),
@@ -125,7 +124,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                 height: 360.0,
                 child: ListView.builder(
                   physics: NeverScrollableScrollPhysics(),
-                  itemCount: 4,
+                  itemCount: 3,
                   controller: scrollController,
                   scrollDirection: Axis.horizontal,
                   itemBuilder: (context, position) {
@@ -154,7 +153,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                                 end: appColours[cardIndex]);
                           }
                         } else {
-                          if (cardIndex < 3) {
+                          if (cardIndex < 2) {
                             cardIndex++;
                             colorTween = ColorTween(begin: currentColor,
                                 end: appColours[cardIndex]);
@@ -216,10 +215,6 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
             },
             child: UserGrowthChart(position: position)
         );
-        break;
-      default:
-        //return _statCard( position);
-        return Container();
         break;
     }
   }

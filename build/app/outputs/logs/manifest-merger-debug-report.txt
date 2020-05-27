@@ -5,22 +5,24 @@ INJECTED from C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\androi
 INJECTED from C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:1:1-47:12
 INJECTED from C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:1:1-47:12
 MERGED from C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:1:1-47:12
+MERGED from [:path_provider] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider_macos] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\path_provider_macos\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-22:12
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:flashy_tab_bar] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\flashy_tab_bar\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:video_player] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\video_player\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:cloud_firestore] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:cloud_firestore_web] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore_web\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:firebase_core] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core_web] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\firebase_core_web\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:sqflite] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:path_provider] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:path_provider_macos] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\path_provider_macos\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:wakelock] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\wakelock\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:shared_preferences] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:shared_preferences_web] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\shared_preferences_web\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:url_launcher] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-14:12
-MERGED from [:shared_preferences_macos] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\shared_preferences_macos\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:url_launcher_macos] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\url_launcher_macos\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences_macos] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\shared_preferences_macos\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences_web] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\shared_preferences_web\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:url_launcher_web] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\url_launcher_web\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:video_player] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\video_player\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\fe249aed8cd00b60b203181b13870196\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\ab67bf951410d70fce7010cbca467938\jetified-firebase-auth-interop-18.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\b346347578bb8fc77a13c257fc80238e\jetified-play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
@@ -28,9 +30,9 @@ MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Quest\.gradle\
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\1a99617193e7c547e9aa6f103cf060b5\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\3b9678029632a8bd70da4e4034bdbe61\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\cb078656a47fea305b510a1adfe07254\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\d931e93ee7b70484d186ae49c2648c1d\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\f708b80e950c46a3e5f60b994c8b4b84\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\f4d93eb81c932fbd3a5334198fdf92c7\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\d931e93ee7b70484d186ae49c2648c1d\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\95ae1e5b512ab1b4d1cfb1d0ebeebca7\customview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.1.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\fdd1d924d9d4aeba2785fceb0b790aec\core-1.1.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\4a690aecf6374ccabd4204d6620b6023\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
@@ -67,6 +69,8 @@ INJECTED from C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\androi
 		ADDED from C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:1:11-69
 application
 ADDED from C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:8:5-46:19
+MERGED from [:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-20:19
+MERGED from [:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-20:19
 MERGED from [:cloud_firestore] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:cloud_firestore] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
@@ -143,10 +147,16 @@ uses-sdk
 INJECTED from C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml
+MERGED from [:path_provider] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_macos] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\path_provider_macos\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_macos] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\path_provider_macos\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:flashy_tab_bar] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\flashy_tab_bar\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:flashy_tab_bar] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\flashy_tab_bar\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:video_player] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\video_player\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:video_player] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\video_player\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore_web] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
@@ -155,26 +165,24 @@ MERGED from [:firebase_core] C:\Users\Quest\Documents\GitHub\online_shopping_bac
 MERGED from [:firebase_core] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core_web] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\firebase_core_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core_web] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\firebase_core_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:sqflite] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:sqflite] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:path_provider] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:path_provider] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:path_provider_macos] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\path_provider_macos\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:path_provider_macos] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\path_provider_macos\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:wakelock] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\wakelock\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:wakelock] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\wakelock\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences_web] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\shared_preferences_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences_web] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\shared_preferences_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences_macos] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\shared_preferences_macos\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences_macos] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\shared_preferences_macos\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher_macos] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\url_launcher_macos\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher_macos] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\url_launcher_macos\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_macos] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\shared_preferences_macos\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_macos] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\shared_preferences_macos\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_web] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\shared_preferences_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_web] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\shared_preferences_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher_web] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\url_launcher_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher_web] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\url_launcher_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:video_player] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\video_player\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:video_player] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\video_player\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\fe249aed8cd00b60b203181b13870196\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\fe249aed8cd00b60b203181b13870196\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\ab67bf951410d70fce7010cbca467938\jetified-firebase-auth-interop-18.0.0\AndroidManifest.xml:5:5-44
@@ -189,12 +197,12 @@ MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ques
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\3b9678029632a8bd70da4e4034bdbe61\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\cb078656a47fea305b510a1adfe07254\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\cb078656a47fea305b510a1adfe07254\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\d931e93ee7b70484d186ae49c2648c1d\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\d931e93ee7b70484d186ae49c2648c1d\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\f708b80e950c46a3e5f60b994c8b4b84\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\f708b80e950c46a3e5f60b994c8b4b84\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\f4d93eb81c932fbd3a5334198fdf92c7\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\f4d93eb81c932fbd3a5334198fdf92c7\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\d931e93ee7b70484d186ae49c2648c1d\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\d931e93ee7b70484d186ae49c2648c1d\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\95ae1e5b512ab1b4d1cfb1d0ebeebca7\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\95ae1e5b512ab1b4d1cfb1d0ebeebca7\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.1.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\fdd1d924d9d4aeba2785fceb0b790aec\core-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -243,6 +251,30 @@ MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Quest\.grad
 MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\fe249aed8cd00b60b203181b13870196\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:14:5-67
 	android:name
 		ADDED from C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\debug\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from [:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from [:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+	android:grantUriPermissions
+		ADDED from [:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
+	android:authorities
+		ADDED from [:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+	android:exported
+		ADDED from [:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+	android:resource
+		ADDED from [:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+	android:name
+		ADDED from [:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [:cloud_firestore] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19

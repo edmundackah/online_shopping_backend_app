@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'dart:convert';
-import 'dart:io';
+import 'package:http/http.dart' as http;
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
@@ -39,8 +39,6 @@ class _ChatScreenState extends State<ChatScreen> {
   ScrollController _scrollController = ScrollController();
 
   List<DocumentSnapshot> _productSearch;
-
-  File _image;
 
   List<DocumentSnapshot> _cart = [];
   List<Map> _giftCart = [];
@@ -361,11 +359,39 @@ class _ChatScreenState extends State<ChatScreen> {
     }
   }
 
-  Future getImage() async {
-    var image = await ImagePicker.pickImage(source: ImageSource.gallery);
+  Future getImage(AsyncSnapshot snapshot) async {
+    final image = await ImagePicker.pickImage(source: ImageSource.gallery);
 
-    String img64 = base64Encode(_image.readAsBytesSync());
-    
+    String img64 = base64Encode(image.readAsBytesSync());
+
+    http.Response res = await http.post(
+      "http://${snapshot.data["server_endpoint"]}.eu-west-2.compute.amazonaws.com/detect",
+      body: jsonEncode({"img": img64}),
+      headers: {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Headers": "Content-Type"
+      },
+    );
+
+    print(res.statusCode);
+
+    if (res.statusCode == 200 && json.decode(res.body)["predictions"].length > 0) {
+      var data = json.decode(res.body);
+      _textEditingController.text = "i want ${data["predictions"][0]["class"]}";
+      _submitQuery();
+      _textEditingController.clear();
+
+    } else {
+      _globalKey.currentState.showSnackBar(
+          SnackBar(
+            content: Text("Unable to connect to server"),
+            backgroundColor: Colors.red,
+            duration: Duration(seconds: 4),
+          )
+      );
+    }
+
+
   }
 
   @override
@@ -437,7 +463,7 @@ class _ChatScreenState extends State<ChatScreen> {
                 height: 170,
                 child: Padding(
                   padding: const EdgeInsets.fromLTRB(8.0,0.0,8.0,15.0),
-                  child: _textFieldWidget(),
+                  child: _textFieldWidget(snapshot),
                 ),
               )
 
@@ -455,7 +481,7 @@ class _ChatScreenState extends State<ChatScreen> {
     super.dispose();
   }
 
-  Widget _textFieldWidget() {
+  Widget _textFieldWidget(AsyncSnapshot snapshot) {
     return Container(
       child: Row(
         children: <Widget>[
@@ -477,19 +503,7 @@ class _ChatScreenState extends State<ChatScreen> {
                       color: Colors.grey,
                     ),
                     onTap: () async {
-                      final String _endpoint = await _inputDialog(context);
-
-                      if (_endpoint != null) {
-                        await getImage();
-                      } else {
-                        _globalKey.currentState.showSnackBar(
-                            SnackBar(
-                              content: Text("missing endpoint query parameter"),
-                              backgroundColor: Colors.red,
-                              duration: Duration(seconds: 4),
-                            )
-                        );
-                      }
+                      await getImage(snapshot);
                     }
 
                   ),
