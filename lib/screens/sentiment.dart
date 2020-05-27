@@ -59,12 +59,6 @@ class _sentimentScreenState extends State<SentimentScreen> with TickerProviderSt
           backgroundColor: Colors.white,
           elevation: 6.0,
           centerTitle: true,
-          actions: <Widget>[
-            Padding(
-              padding: const EdgeInsets.only(right: 16.0),
-              child: Icon(Icons.search),
-            ),
-          ],
           bottom: PreferredSize(
             preferredSize: const Size(double.infinity, kToolbarHeight),
             child: FlashyTabBar(

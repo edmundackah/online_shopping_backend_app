@@ -218,7 +218,8 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
         );
         break;
       default:
-        return _statCard( position);
+        //return _statCard( position);
+        return Container();
         break;
     }
   }

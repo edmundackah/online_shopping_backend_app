@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:onlineshoppingbackendapp/logic/firebase_manager.dart';
+import 'package:onlineshoppingbackendapp/screens/chatbot/chat_screen.dart';
 import 'package:onlineshoppingbackendapp/screens/homepage.dart';
 import 'package:onlineshoppingbackendapp/screens/orders.dart';
 import 'package:onlineshoppingbackendapp/screens/requests.dart';
@@ -196,6 +197,12 @@ class _NavDrawerState extends State<NavDrawer> {
                     Navigator.push(context,
                         MaterialPageRoute(
                             builder: (context) => SentimentScreen(position: index)
+                        ));
+                    break;
+                  case 5:
+                    Navigator.push(context,
+                        MaterialPageRoute(
+                            builder: (context) => ChatScreen(position: index)
                         ));
                     break;
                   case 6:

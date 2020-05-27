@@ -52,6 +52,8 @@ class _LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
   ColorTween colorTween;
   CurvedAnimation curvedAnimation;
 
+  final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey();
+
   @override
   void initState() {
     super.initState();
@@ -66,6 +68,7 @@ class _LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
 
   Widget _loginPage() {
     return Scaffold(
+      key: _scaffoldKey,
         body: Container(
             child: Container(
               height: MediaQuery.of(context).size.height,
@@ -89,23 +92,12 @@ class _LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
                           height: 20,
                         ),
                         _submitButton(),
-                        Container(
-                          padding: EdgeInsets.symmetric(vertical: 10),
-                          alignment: Alignment.centerRight,
-                          child: Text('Forgot Password ?',
-                              style:
-                              TextStyle(fontSize: 14, fontWeight: FontWeight.w500)),
-                        ),
                         Expanded(
                           flex: 2,
                           child: SizedBox(),
                         ),
                       ],
                     ),
-                  ),
-                  Align(
-                    alignment: Alignment.bottomCenter,
-                    child: _createAccountLabel(),
                   ),
                   Positioned(
                       top: -MediaQuery.of(context).size.height * .15,
@@ -167,28 +159,38 @@ class _LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
       ),
       splashColor: Colors.white,
       onTap: () async {
-        String _userRef = await new FirebaseManager()
-            .login(emailController.text, passwordController.text);
 
-        if (_userRef != null) {
-          final SharedPreferences prefs = await SharedPreferences.getInstance();
-          prefs.setString("userInfo", _userRef);
+        final snackBar = SnackBar(
+          content: Text("Check Login Credentials"),
+          duration: Duration(seconds: 3),
+          backgroundColor: Colors.redAccent,
+        );
 
-          Navigator.push(context,
-              MaterialPageRoute(
-                  builder: (context) =>
-                      HomePage(
-                          email: emailController.text,
-                          password: passwordController.text)
-              )
-          );
+        if (emailController.text.isNotEmpty && emailController.text.isNotEmpty){
+          String _userRef = await new FirebaseManager()
+              .login(emailController.text, passwordController.text);
+
+          print("login doc: $_userRef");
+
+          if (_userRef != null) {
+            final SharedPreferences prefs = await SharedPreferences.getInstance();
+            prefs.setString("userInfo", _userRef);
+
+            print("login doc: $_userRef");
+
+            Navigator.push(context,
+                MaterialPageRoute(
+                    builder: (context) =>
+                        HomePage(
+                            email: emailController.text,
+                            password: passwordController.text)
+                )
+            );
+          } else {
+            _scaffoldKey.currentState.showSnackBar(snackBar);
+          }
         } else {
-          final snackBar = SnackBar(
-            content: Text("Check Login Credentials"),
-            duration: Duration(seconds: 3),
-            backgroundColor: Colors.redAccent,
-          );
-          Scaffold.of(context).showSnackBar(snackBar);
+          _scaffoldKey.currentState.showSnackBar(snackBar);
         }
       },
     );
