@@ -499,7 +499,7 @@ class _ChatScreenState extends State<ChatScreen> {
                   SizedBox(width: 15),
                   InkWell(
                     child: Icon(
-                      Icons.tag_faces,
+                      Icons.image,
                       color: Colors.grey,
                     ),
                     onTap: () async {
