@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\url_launcher\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bs\\values-bs.xml",
+            "outputFile": "C:\\Users\\edmun\\Documents\\GitHub\\online_shopping_backend_app\\build\\url_launcher\\intermediates\\res\\merged\\debug\\values-bs\\values-bs.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-bs\\values-bs.xml",
+                    "source": "C:\\Users\\edmun\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-bs\\values-bs.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\url_launcher\\intermediates\\res\\merged\\debug\\values-bs\\values-bs.xml",
+            "outputFile": "C:\\Users\\edmun\\Documents\\GitHub\\online_shopping_backend_app\\build\\url_launcher\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bs\\values-bs.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Quest\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-bs\\values-bs.xml",
+                    "source": "C:\\Users\\edmun\\.gradle\\caches\\transforms-2\\files-2.1\\fdd1d924d9d4aeba2785fceb0b790aec\\core-1.1.0\\res\\values-bs\\values-bs.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

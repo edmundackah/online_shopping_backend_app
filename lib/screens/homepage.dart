@@ -77,106 +77,108 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   }
 
   Widget _homepageBody(DocumentSnapshot doc) {
-    return Container(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget>[
-          Padding(
-            padding: const EdgeInsets.symmetric(
-                horizontal: 48.0, vertical: 56.0),
-            child: Container(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: <Widget>[
-                  Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 16.0),
-                    child: CircleAvatar(
-                      backgroundColor: Colors.grey,
-                      backgroundImage: NetworkImage(
-                          doc["picture"]["thumbnail"]),
-                      minRadius: 30,
-                      maxRadius: 30,
+    return SingleChildScrollView(
+      child: Container(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+            Padding(
+              padding: const EdgeInsets.symmetric(
+                  horizontal: 48.0, vertical: 56.0),
+              child: Container(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 16.0),
+                      child: CircleAvatar(
+                        backgroundColor: Colors.grey,
+                        backgroundImage: NetworkImage(
+                            doc["picture"]["thumbnail"]),
+                        minRadius: 30,
+                        maxRadius: 30,
+                      ),
                     ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.fromLTRB(0.0, 8.0, 0.0, 12.0),
-                    child: Text("Hello, ${doc["name"]["first"]}.",
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0.0, 8.0, 0.0, 12.0),
+                      child: Text("Hello, ${doc["name"]["first"]}.",
+                        style: TextStyle(
+                            fontSize: 28.0,
+                            color: Colors.white,
+                            fontWeight: FontWeight.w400
+                        ),
+                      ),
+                    ),
+                    Text("Looks like a feel good day.",
                       style: TextStyle(
-                          fontSize: 28.0,
                           color: Colors.white,
-                          fontWeight: FontWeight.w400
-                      ),
+                          fontSize: 16.0),
                     ),
-                  ),
-                  Text("Looks like a feel good day.",
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 16.0),
-                  ),
-                ],
-              ),
-            ),
-          ),
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: <Widget>[
-              Container(
-                height: 360.0,
-                child: ListView.builder(
-                  physics: NeverScrollableScrollPhysics(),
-                  itemCount: 3,
-                  controller: scrollController,
-                  scrollDirection: Axis.horizontal,
-                  itemBuilder: (context, position) {
-                    return GestureDetector(
-                      child: Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: _cardSelector(position),
-                      ),
-                      onHorizontalDragEnd: (details) {
-                        animationController =
-                            AnimationController(vsync: this, duration: Duration(
-                                milliseconds: 500));
-                        curvedAnimation = CurvedAnimation(
-                            parent: animationController, curve: Curves
-                            .fastOutSlowIn);
-                        animationController.addListener(() {
-                          setState(() {
-                            currentColor = colorTween.evaluate(curvedAnimation);
-                          });
-                        });
-
-                        if (details.velocity.pixelsPerSecond.dx > 0) {
-                          if (cardIndex > 0) {
-                            cardIndex--;
-                            colorTween = ColorTween(begin: currentColor,
-                                end: appColours[cardIndex]);
-                          }
-                        } else {
-                          if (cardIndex < 2) {
-                            cardIndex++;
-                            colorTween = ColorTween(begin: currentColor,
-                                end: appColours[cardIndex]);
-                          }
-                        }
-
-                        setState(() {
-                          scrollController.animateTo((cardIndex) * 295.0,
-                              duration: Duration(milliseconds: 500),
-                              curve: Curves.fastOutSlowIn);
-                        });
-
-                        colorTween.animate(curvedAnimation);
-
-                        animationController.forward();
-                      },
-                    );
-                  },
+                  ],
                 ),
               ),
-            ],
-          )
-        ],
+            ),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                Container(
+                  height: 360.0,
+                  child: ListView.builder(
+                    physics: NeverScrollableScrollPhysics(),
+                    itemCount: 3,
+                    controller: scrollController,
+                    scrollDirection: Axis.horizontal,
+                    itemBuilder: (context, position) {
+                      return GestureDetector(
+                        child: Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: _cardSelector(position),
+                        ),
+                        onHorizontalDragEnd: (details) {
+                          animationController =
+                              AnimationController(vsync: this, duration: Duration(
+                                  milliseconds: 500));
+                          curvedAnimation = CurvedAnimation(
+                              parent: animationController, curve: Curves
+                              .fastOutSlowIn);
+                          animationController.addListener(() {
+                            setState(() {
+                              currentColor = colorTween.evaluate(curvedAnimation);
+                            });
+                          });
+
+                          if (details.velocity.pixelsPerSecond.dx > 0) {
+                            if (cardIndex > 0) {
+                              cardIndex--;
+                              colorTween = ColorTween(begin: currentColor,
+                                  end: appColours[cardIndex]);
+                            }
+                          } else {
+                            if (cardIndex < 2) {
+                              cardIndex++;
+                              colorTween = ColorTween(begin: currentColor,
+                                  end: appColours[cardIndex]);
+                            }
+                          }
+
+                          setState(() {
+                            scrollController.animateTo((cardIndex) * 295.0,
+                                duration: Duration(milliseconds: 500),
+                                curve: Curves.fastOutSlowIn);
+                          });
+
+                          colorTween.animate(curvedAnimation);
+
+                          animationController.forward();
+                        },
+                      );
+                    },
+                  ),
+                ),
+              ],
+            )
+          ],
+        ),
       ),
     );
   }

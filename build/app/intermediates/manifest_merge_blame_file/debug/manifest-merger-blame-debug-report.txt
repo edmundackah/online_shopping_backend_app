@@ -12,18 +12,18 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\debug\AndroidManifest.xml:6:5-66
-14-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\debug\AndroidManifest.xml:6:22-64
+14-->C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\android\app\src\debug\AndroidManifest.xml:6:22-64
 15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-15-->[:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
-15-->[:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+15-->[:image_picker] C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+15-->[:image_picker] C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
 16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
-16-->[:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
-16-->[:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
+16-->[:image_picker] C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
+16-->[:image_picker] C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
 17    <!-- <uses-sdk android:minSdkVersion="14" /> -->
 18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-18-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\fe249aed8cd00b60b203181b13870196\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:13:5-79
-18-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\fe249aed8cd00b60b203181b13870196\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:13:22-76
+18-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\edmun\.gradle\caches\transforms-2\files-2.1\fe249aed8cd00b60b203181b13870196\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:13:5-79
+18-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\edmun\.gradle\caches\transforms-2\files-2.1\fe249aed8cd00b60b203181b13870196\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:13:22-76
 19    <!--
 20 io.flutter.app.FlutterApplication is an android.app.Application that
 21         calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -32,30 +32,30 @@
 24         FlutterApplication and put your custom class here.
 25    -->
 26    <application
-26-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:8:5-46:19
+26-->C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:8:5-46:19
 27        android:name="io.flutter.app.FlutterApplication"
-27-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:9:9-57
+27-->C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:9:9-57
 28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-28-->[androidx.core:core:1.1.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\fdd1d924d9d4aeba2785fceb0b790aec\core-1.1.0\AndroidManifest.xml:24:18-86
+28-->[androidx.core:core:1.1.0] C:\Users\edmun\.gradle\caches\transforms-2\files-2.1\fdd1d924d9d4aeba2785fceb0b790aec\core-1.1.0\AndroidManifest.xml:24:18-86
 29        android:debuggable="true"
 30        android:icon="@mipmap/ic_launcher"
-30-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:11:9-43
+30-->C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:11:9-43
 31        android:label="Control Centre" >
-31-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:10:9-39
+31-->C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:10:9-39
 32        <activity
-32-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:12:9-40:20
+32-->C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:12:9-40:20
 33            android:name="com.papaya.onlineshoppingbackendapp.MainActivity"
-33-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:13:13-41
+33-->C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:13:13-41
 34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-34-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:16:13-163
+34-->C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:16:13-163
 35            android:hardwareAccelerated="true"
-35-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:17:13-47
+35-->C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:17:13-47
 36            android:launchMode="singleTop"
-36-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:14:13-43
+36-->C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:14:13-43
 37            android:theme="@style/LaunchTheme"
-37-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:15:13-47
+37-->C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:15:13-47
 38            android:windowSoftInputMode="adjustResize" >
-38-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:18:13-55
+38-->C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:18:13-55
 39
 40            <!--
 41                 Specifies an Android theme to apply to this Activity as soon as
@@ -64,11 +64,11 @@
 44                 to determine the Window background behind the Flutter UI.
 45            -->
 46            <meta-data
-46-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:23:13-26:17
+46-->C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:23:13-26:17
 47                android:name="io.flutter.embedding.android.NormalTheme"
-47-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:24:15-70
+47-->C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:24:15-70
 48                android:resource="@style/NormalTheme" />
-48-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:25:15-52
+48-->C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:25:15-52
 49            <!--
 50                 Displays an Android View that continues showing the launch screen
 51                 Drawable until Flutter paints its first frame, then this splash
@@ -77,21 +77,21 @@
 54                 Flutter's first frame.
 55            -->
 56            <meta-data
-56-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:32:13-35:17
+56-->C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:32:13-35:17
 57                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-57-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:33:15-79
+57-->C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:33:15-79
 58                android:resource="@drawable/launch_background" />
-58-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:34:15-61
+58-->C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:34:15-61
 59
 60            <intent-filter>
-60-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:36:13-39:29
+60-->C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:36:13-39:29
 61                <action android:name="android.intent.action.MAIN" />
-61-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:37:17-68
-61-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:37:25-66
+61-->C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:37:17-68
+61-->C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:37:25-66
 62
 63                <category android:name="android.intent.category.LAUNCHER" />
-63-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:38:17-76
-63-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:38:27-74
+63-->C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:38:17-76
+63-->C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:38:27-74
 64            </intent-filter>
 65        </activity>
 66        <!--
@@ -99,92 +99,92 @@
 68             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 69        -->
 70        <meta-data
-70-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:43:9-45:33
+70-->C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:43:9-45:33
 71            android:name="flutterEmbedding"
-71-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:44:13-44
+71-->C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:44:13-44
 72            android:value="2" />
-72-->C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:45:13-30
+72-->C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\android\app\src\main\AndroidManifest.xml:45:13-30
 73
-74        <provider
-74-->[:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
-75            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-75-->[:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
-76            android:authorities="com.papaya.onlineshoppingbackendapp.flutter.image_provider"
-76-->[:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
-77            android:exported="false"
-77-->[:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
-78            android:grantUriPermissions="true" >
-78-->[:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
-79            <meta-data
-79-->[:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
-80                android:name="android.support.FILE_PROVIDER_PATHS"
-80-->[:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
-81                android:resource="@xml/flutter_image_picker_file_paths" />
-81-->[:image_picker] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
-82        </provider>
-83
-84        <service
-84-->[:cloud_firestore] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
-85            android:name="com.google.firebase.components.ComponentDiscoveryService"
-85-->[:cloud_firestore] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
-86            android:directBootAware="true"
-86-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\87d610133b8b52ad116c726424017ad2\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
-87            android:exported="false" >
-87-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\fe249aed8cd00b60b203181b13870196\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:19:13-37
-88            <meta-data
-88-->[:cloud_firestore] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
-89                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
-89-->[:cloud_firestore] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-133
-90                android:value="com.google.firebase.components.ComponentRegistrar" />
-90-->[:cloud_firestore] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
-91            <meta-data
-91-->[:firebase_core] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
-92                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
-92-->[:firebase_core] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-123
-93                android:value="com.google.firebase.components.ComponentRegistrar" />
-93-->[:firebase_core] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+74        <service
+74-->[:cloud_firestore] C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+75            android:name="com.google.firebase.components.ComponentDiscoveryService"
+75-->[:cloud_firestore] C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+76            android:directBootAware="true"
+76-->[com.google.firebase:firebase-common:19.3.0] C:\Users\edmun\.gradle\caches\transforms-2\files-2.1\87d610133b8b52ad116c726424017ad2\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+77            android:exported="false" >
+77-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\edmun\.gradle\caches\transforms-2\files-2.1\fe249aed8cd00b60b203181b13870196\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:19:13-37
+78            <meta-data
+78-->[:cloud_firestore] C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+79                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+79-->[:cloud_firestore] C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-133
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[:cloud_firestore] C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+81            <meta-data
+81-->[:firebase_core] C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+82                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+82-->[:firebase_core] C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-123
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[:firebase_core] C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\edmun\.gradle\caches\transforms-2\files-2.1\fe249aed8cd00b60b203181b13870196\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:20:13-22:85
+85                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+85-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\edmun\.gradle\caches\transforms-2\files-2.1\fe249aed8cd00b60b203181b13870196\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:21:17-111
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\edmun\.gradle\caches\transforms-2\files-2.1\fe249aed8cd00b60b203181b13870196\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:22:17-82
+87        </service>
+88
+89        <provider
+89-->[:image_picker] C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+90            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+90-->[:image_picker] C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+91            android:authorities="com.papaya.onlineshoppingbackendapp.flutter.image_provider"
+91-->[:image_picker] C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+92            android:exported="false"
+92-->[:image_picker] C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+93            android:grantUriPermissions="true" >
+93-->[:image_picker] C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
 94            <meta-data
-94-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\fe249aed8cd00b60b203181b13870196\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:20:13-22:85
-95                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-95-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\fe249aed8cd00b60b203181b13870196\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:21:17-111
-96                android:value="com.google.firebase.components.ComponentRegistrar" />
-96-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\fe249aed8cd00b60b203181b13870196\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:22:17-82
-97        </service>
+94-->[:image_picker] C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+95                android:name="android.support.FILE_PROVIDER_PATHS"
+95-->[:image_picker] C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+96                android:resource="@xml/flutter_image_picker_file_paths" />
+96-->[:image_picker] C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+97        </provider>
 98
 99        <activity
-99-->[:url_launcher] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+99-->[:url_launcher] C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
 100            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-100-->[:url_launcher] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+100-->[:url_launcher] C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
 101            android:exported="false"
-101-->[:url_launcher] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+101-->[:url_launcher] C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
 102            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-102-->[:url_launcher] C:\Users\Quest\Documents\GitHub\online_shopping_backend_app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+102-->[:url_launcher] C:\Users\edmun\Documents\GitHub\online_shopping_backend_app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
 103        <activity
-103-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\b346347578bb8fc77a13c257fc80238e\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+103-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\edmun\.gradle\caches\transforms-2\files-2.1\b346347578bb8fc77a13c257fc80238e\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
 104            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-104-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\b346347578bb8fc77a13c257fc80238e\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+104-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\edmun\.gradle\caches\transforms-2\files-2.1\b346347578bb8fc77a13c257fc80238e\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
 105            android:exported="false"
-105-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\b346347578bb8fc77a13c257fc80238e\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+105-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\edmun\.gradle\caches\transforms-2\files-2.1\b346347578bb8fc77a13c257fc80238e\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
 106            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-106-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\b346347578bb8fc77a13c257fc80238e\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+106-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\edmun\.gradle\caches\transforms-2\files-2.1\b346347578bb8fc77a13c257fc80238e\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
 107
 108        <provider
-108-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\87d610133b8b52ad116c726424017ad2\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+108-->[com.google.firebase:firebase-common:19.3.0] C:\Users\edmun\.gradle\caches\transforms-2\files-2.1\87d610133b8b52ad116c726424017ad2\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
 109            android:name="com.google.firebase.provider.FirebaseInitProvider"
-109-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\87d610133b8b52ad116c726424017ad2\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+109-->[com.google.firebase:firebase-common:19.3.0] C:\Users\edmun\.gradle\caches\transforms-2\files-2.1\87d610133b8b52ad116c726424017ad2\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
 110            android:authorities="com.papaya.onlineshoppingbackendapp.firebaseinitprovider"
-110-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\87d610133b8b52ad116c726424017ad2\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+110-->[com.google.firebase:firebase-common:19.3.0] C:\Users\edmun\.gradle\caches\transforms-2\files-2.1\87d610133b8b52ad116c726424017ad2\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
 111            android:exported="false"
-111-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\87d610133b8b52ad116c726424017ad2\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+111-->[com.google.firebase:firebase-common:19.3.0] C:\Users\edmun\.gradle\caches\transforms-2\files-2.1\87d610133b8b52ad116c726424017ad2\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
 112            android:initOrder="100" />
-112-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\87d610133b8b52ad116c726424017ad2\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+112-->[com.google.firebase:firebase-common:19.3.0] C:\Users\edmun\.gradle\caches\transforms-2\files-2.1\87d610133b8b52ad116c726424017ad2\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
 113
 114        <meta-data
-114-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\3b9678029632a8bd70da4e4034bdbe61\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+114-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\edmun\.gradle\caches\transforms-2\files-2.1\3b9678029632a8bd70da4e4034bdbe61\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 115            android:name="com.google.android.gms.version"
-115-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\3b9678029632a8bd70da4e4034bdbe61\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+115-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\edmun\.gradle\caches\transforms-2\files-2.1\3b9678029632a8bd70da4e4034bdbe61\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
 116            android:value="@integer/google_play_services_version" />
-116-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Quest\.gradle\caches\transforms-2\files-2.1\3b9678029632a8bd70da4e4034bdbe61\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+116-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\edmun\.gradle\caches\transforms-2\files-2.1\3b9678029632a8bd70da4e4034bdbe61\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 117    </application>
 118
 119</manifest>
