@@ -1,4 +1,0 @@
-#Wed May 27 22:24:24 BST 2020
-base.0=C\:\\Users\\Quest\\Documents\\GitHub\\online_shopping_backend_app\\build\\app\\intermediates\\dex\\release\\shrunkDex\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

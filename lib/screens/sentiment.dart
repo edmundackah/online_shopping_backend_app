@@ -725,10 +725,10 @@ class _sentimentScreenState extends State<SentimentScreen> with TickerProviderSt
     int position;
 
     if (score != null ) {
-      if (score >= 0 && score <= 0.45) {
+      if (score >= 0 && score <= 0.40) {
         position = 2;
 
-      } else if (score >= 0.45 && score <= 0.55) {
+      } else if (score >= 0.40 && score <= 0.55) {
         position = 1;
 
       } else if (score >= 0.55) {
